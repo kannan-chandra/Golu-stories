@@ -12,7 +12,7 @@
   <body>
     <header class="site-header">
       <div class="header-inner">
-        <a class="brand" href="#top" aria-label="Golu Stories home">
+        <a class="brand" href="./" aria-label="Golu Stories home">
           <span class="brand-mark" aria-hidden="true">கொலு</span>
           <span>Golu Stories</span>
         </a>
@@ -44,21 +44,20 @@
           <button type="button">Show all stories</button>
         </div>
       </section>
+
+      <article id="story-page" class="story-page" hidden>
+        <a class="back-link" href="./">← Back to all stories</a>
+        <p id="story-category" class="eyebrow"></p>
+        <h1 id="story-title"></h1>
+        <div id="story-body" class="story-body"></div>
+        <div class="story-end">
+          <a class="back-link" href="./">← Back to all stories</a>
+        </div>
+      </article>
     </main>
 
     <footer>
       <p>Stories and notes adapted from the supplied family collection. Traditional tellings can vary across regions and texts.</p>
     </footer>
-
-    <dialog id="story-dialog" aria-labelledby="dialog-title">
-      <div class="dialog-shell">
-        <button class="close-button" type="button" aria-label="Close story">×</button>
-        <div class="dialog-content">
-          <p id="dialog-category" class="eyebrow"></p>
-          <h2 id="dialog-title"></h2>
-          <div id="dialog-body" class="dialog-body"></div>
-        </div>
-      </div>
-    </dialog>
   </body>
 </html>
