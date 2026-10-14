@@ -119,13 +119,13 @@ const STORIES = [
           "heading": "The Festival for Indra",
           "paragraphs": [
             "One day Krishna noticed preparations for a sacrifice to Indra (இந்திரன்), king of the Devas and god of rain. Krishna asked his father about it. Nanda explained that rain nourished the grass, crops, and forests, so the cowherds honored Indra with offerings.",
-            "Krishna questioned this practice. He explained that people should perform their duties faithfully. The cowherds should care for their cows and pastures. He proposed honoring the cows, the Brahmins, and Govardhana Hill (கோவர்த்தன மலை) instead. The villagers accepted his suggestion."
+            "Krishna questioned this practice. He explained that people should perform their duties faithfully. The cowherds should care for their cows and pastures. He suggested that they should honor Govardhana Hill (கோவர்த்தன மலை) instead. The villagers accepted his suggestion."
           ]
         },
         {
           "heading": "The Worship of Govardhana",
           "paragraphs": [
-            "The cowherds prepared rice, milk dishes, sweets, and other food. They made offerings to Govardhana Hill, honored the Brahmins, and fed the cows. They decorated their cattle and walked around the mountain in a procession. During the ceremony, Krishna manifested an enormous divine form associated with Govardhana and accepted the offerings. Then the villagers returned home."
+            "The cowherds prepared rice, milk dishes, sweets, and other food. They made offerings to Govardhana Hill and fed the cows. They decorated their cattle and walked around the mountain in a procession. During the ceremony, Krishna manifested an enormous divine form associated with Govardhana and accepted the offerings. Then the villagers returned home."
           ]
         },
         {
