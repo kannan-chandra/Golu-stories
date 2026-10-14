@@ -47,6 +47,7 @@ h1 { margin: 0; max-width: 650px; font-size: clamp(2.8rem, 7vw, 5.5rem); font-we
 .filter { flex: none; padding: .5rem .85rem; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); background: transparent; font-family: ui-sans-serif, system-ui, sans-serif; font-size: .82rem; }
 .filter:hover, .filter[aria-pressed="true"] { color: white; border-color: var(--leaf); background: var(--leaf); }
 .result-count { margin: 1.4rem 0 .8rem; color: var(--muted); font-family: ui-sans-serif, system-ui, sans-serif; font-size: .82rem; }
+.audit-index { margin: 0 0 .35rem; color: var(--muted); font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
 .story-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
 .story-card { position: relative; display: flex; flex-direction: column; min-height: 270px; padding: 1.35rem; border: 1px solid var(--line); border-radius: 18px; background: rgba(255, 255, 255, .68); transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease; }
 .story-card:hover { transform: translateY(-3px); border-color: #c9aa81; box-shadow: 0 14px 35px rgba(69,45,24,.09); }
