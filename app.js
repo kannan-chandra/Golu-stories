@@ -12,7 +12,8 @@ const stories = STORY_GROUPS.flatMap((group) =>
     id: slugify(title),
     category: group.category,
     title,
-    body
+    summary: STORY_SUMMARIES[title],
+    full: EXPANDED_STORIES[title] || body
   }))
 );
 
@@ -26,11 +27,6 @@ const count = document.querySelector("#result-count");
 const empty = document.querySelector("#empty-state");
 const storyPage = document.querySelector("#story-page");
 let activeCategory = "All stories";
-
-function sentences(text) {
-  const matches = text.match(/[^.!?]+[.!?]+/g) || [text];
-  return matches.slice(0, 2).join(" ").trim();
-}
 
 function storyUrl(story) {
   const url = new URL(window.location.href);
@@ -61,7 +57,10 @@ function renderStories() {
   const query = search.value.trim().toLocaleLowerCase();
   const visible = stories.filter((story) => {
     const inCategory = activeCategory === "All stories" || story.category === activeCategory;
-    const searchable = `${story.title} ${story.category} ${story.body}`.toLocaleLowerCase();
+    const fullText = typeof story.full === "string"
+      ? story.full
+      : story.full.sections.flatMap((section) => section.paragraphs).join(" ");
+    const searchable = `${story.title} ${story.category} ${story.summary} ${fullText}`.toLocaleLowerCase();
     return inCategory && searchable.includes(query);
   });
 
@@ -77,7 +76,7 @@ function renderStories() {
     title.textContent = story.title;
     const summary = document.createElement("p");
     summary.className = "summary";
-    summary.textContent = sentences(story.body);
+    summary.textContent = story.summary;
     const link = document.createElement("a");
     link.className = "read-link";
     link.href = storyUrl(story);
@@ -109,11 +108,39 @@ function renderStoryPage(story) {
   document.title = `${story.title} · Golu Stories`;
 
   const body = document.querySelector("#story-body");
-  const paragraph = document.createElement("p");
-  paragraph.textContent = story.body;
-  body.append(paragraph);
+  if (typeof story.full === "string") {
+    const paragraph = document.createElement("p");
+    paragraph.textContent = story.full;
+    body.append(paragraph);
+  } else {
+    story.full.sections.forEach((section) => {
+      if (section.heading) {
+        const heading = document.createElement("h2");
+        heading.textContent = section.heading;
+        body.append(heading);
+      }
+      section.paragraphs.forEach((text) => {
+        const paragraph = document.createElement("p");
+        paragraph.textContent = text;
+        body.append(paragraph);
+      });
+    });
+    if (story.full.lesson) {
+      const lesson = document.createElement("p");
+      lesson.className = "lesson";
+      lesson.innerHTML = `<strong>${story.full.lesson.label}</strong> ${story.full.lesson.text}`;
+      body.append(lesson);
+    }
+    if (story.full.source) {
+      const source = document.createElement("p");
+      source.className = "source-note";
+      source.textContent = story.full.source;
+      body.append(source);
+    }
+  }
 
-  if (/teaching|symbolic|folk tradition|versions differ|iconography|customs/i.test(story.body)) {
+  const fullText = typeof story.full === "string" ? story.full : "";
+  if (fullText && /teaching|symbolic|folk tradition|versions differ|iconography|customs/i.test(fullText)) {
     const note = document.createElement("p");
     note.className = "source-note";
     note.textContent = "This entry includes the source collection’s note about its tradition, symbolism, or teaching-story form.";

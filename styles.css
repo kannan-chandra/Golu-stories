@@ -64,7 +64,9 @@ h1 { margin: 0; max-width: 650px; font-size: clamp(2.8rem, 7vw, 5.5rem); font-we
 .story-page .back-link:hover { text-decoration: underline; text-underline-offset: .22em; }
 .story-page h1 { max-width: 760px; margin-bottom: 2rem; font-size: clamp(2.75rem, 7vw, 5.2rem); }
 .story-body { max-width: 720px; }
-.story-body p { margin: 0; font-size: clamp(1.16rem, 2vw, 1.32rem); line-height: 1.78; }
+.story-body p { margin: 0 0 1.3rem; font-size: clamp(1.16rem, 2vw, 1.32rem); line-height: 1.78; }
+.story-body h2 { margin: 3rem 0 1rem; color: var(--saffron-dark); font-family: ui-sans-serif, system-ui, sans-serif; font-size: .82rem; letter-spacing: .12em; line-height: 1.4; text-transform: uppercase; }
+.story-body .lesson { margin-top: 2.8rem; padding: 1.25rem 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); color: var(--leaf); font-size: 1.05rem; }
 .story-body .source-note { margin-top: 2.2rem; padding-top: 1.3rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .94rem; font-style: italic; line-height: 1.6; }
 .story-end { margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid var(--line); }
 .story-end .back-link { margin-bottom: 0; }

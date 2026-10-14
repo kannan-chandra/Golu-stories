@@ -20,3 +20,9 @@ Then visit <http://localhost:8000>.
 4. Select the branch containing these files and the `/ (root)` folder, then save.
 
 No build step is required.
+
+## Edit story content
+
+- `stories.js` contains the original story titles, categories, and baseline full text.
+- `story-content.js` contains one purpose-written card summary for every story.
+- Longer retellings live in `EXPANDED_STORIES` inside `story-content.js`. Each can contain titled sections, a lesson, and a source note. If a story has no expanded entry, its baseline full text is shown instead.
