@@ -1,21 +1,4 @@
-function slugify(value) {
-  return value
-    .toLocaleLowerCase()
-    .normalize("NFKD")
-    .replace(/[’']/g, "")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "");
-}
-
-const stories = STORY_GROUPS.flatMap((group) =>
-  group.stories.map(([title, body]) => ({
-    id: slugify(title),
-    category: group.category,
-    title,
-    summary: STORY_SUMMARIES[title],
-    full: EXPANDED_STORIES[title] || body
-  }))
-);
+const stories = STORIES;
 
 const intro = document.querySelector(".intro");
 const browse = document.querySelector(".browse");
@@ -38,7 +21,7 @@ function storyUrl(story) {
 
 function renderFilters() {
   filters.replaceChildren();
-  ["All stories", ...STORY_GROUPS.map((group) => group.category)].forEach((category) => {
+  ["All stories", ...new Set(stories.map((story) => story.category))].forEach((category) => {
     const button = document.createElement("button");
     button.type = "button";
     button.className = "filter";
