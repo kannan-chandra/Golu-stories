@@ -25,3 +25,4 @@ No build step is required.
 
 - `stories.js` contains the single `STORIES` collection. Every record keeps its ID, category, title, summary, and full version together.
 - A full version may be a simple string or a structured object with titled sections, a lesson, and a source note.
+- Records are arranged in their display order, following a suggested Tamil Navaratri progression from Durga to Lakshmi to Saraswati.

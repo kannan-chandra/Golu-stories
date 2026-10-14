@@ -1,6 +1,76 @@
-// All story content lives in this single collection. A full story may be a
-// simple string or a structured object with sections, a lesson, and a source.
+// Stories are ordered as a suggested Tamil Navaratri reading sequence:
+// Durga first, Lakshmi near the middle, and Saraswati last.
+// A full story may be a simple string or a structured object with sections.
 const STORIES = [
+  {
+    "id": "durga-and-mahishasura",
+    "category": "Durga and Parvati · துர்க்கை / பார்வதி",
+    "title": "Durga and Mahishasura",
+    "summary": "Protected from defeat by any god or man, the shape-shifting Mahishasura conquers heaven and drives out the Devas. Their combined divine energy creates Durga, who rides into battle on a lion and restores justice after a fierce struggle.",
+    "full": {
+      "sections": [
+        {
+          "heading": null,
+          "paragraphs": [
+            "Long ago, there lived a powerful Asura named Mahishasura (மகிஷாசுரன்). He could change his shape, appearing sometimes as a man and sometimes as a mighty buffalo. Mahishasura wanted to become the most powerful ruler in the universe.",
+            "He performed penance to Lord Brahma (பிரம்மா) for many years. When Brahma appeared and offered him a boon, Mahishasura asked that no god or man should be able to defeat him. Brahma granted the boon. Mahishasura was delighted, believing himself unbeatable. But he had forgotten to ask for protection from women."
+          ]
+        },
+        {
+          "heading": "The Gods Are Defeated",
+          "paragraphs": [
+            "With his new powers, Mahishasura gathered an enormous army and marched into heaven. He challenged Indra (இந்திரன்), king of the Devas, and defeated him. The Devas were driven from heaven and went to Brahma, Vishnu (விஷ்ணு), and Shiva (சிவபெருமான்) for help. The three great gods knew that Mahishasura's boon protected him from gods and men, but not from a goddess."
+          ]
+        },
+        {
+          "heading": "The Birth of Durga",
+          "paragraphs": [
+            "A brilliant light shone from Vishnu, Shiva, Brahma, and the other gods. Their divine energies came together, brighter than a thousand suns. From this light appeared Durga (துர்க்கை அம்மன்), a radiant goddess with many arms and extraordinary courage.",
+            "The gods gave Durga their weapons. Shiva gave her his trident; Vishnu gave her his discus, the Sudarshana Chakra (சுதர்சன சக்கரம்); Indra gave her his thunderbolt; and other gods gave her a sword, bow, arrows, and other weapons. Durga rode a magnificent lion into battle."
+          ]
+        },
+        {
+          "heading": "The Great Battle",
+          "paragraphs": [
+            "Mahishasura sent his strongest warriors against Durga, but she defeated them. Finally, Mahishasura himself came forward. He took the form of an enormous buffalo and charged, shaking the ground beneath his hooves. Durga fought him with her divine weapons.",
+            "Mahishasura kept changing form. He appeared as a lion, a man carrying a sword, and an elephant before returning to his buffalo shape. Durga met each attack. At last, she pinned him down and defeated him with her trident."
+          ]
+        },
+        {
+          "heading": "The Victory",
+          "paragraphs": [
+            "The Devas rejoiced. Flowers fell from heaven, and Indra and the other gods were able to return to their places. Durga became known as Mahishasuramardini (மகிஷாசுரமர்த்தினி), the goddess who defeated Mahishasura.",
+            "During Navaratri (நவராத்திரி), many families celebrate the goddess and her victory. The tenth day, Vijayadashami (விஜயதசமி), is associated with victory and new beginnings."
+          ]
+        }
+      ],
+      "lesson": {
+        "label": "Lesson:",
+        "text": "Strength is best used to protect others and stand up for what is right."
+      }
+    }
+  },
+  {
+    "id": "durga-and-chamunda",
+    "category": "Durga and Parvati · துர்க்கை / பார்வதி",
+    "title": "Durga and Chamunda",
+    "summary": "When the fierce Asuras Chanda and Munda challenge Durga, the powerful goddess Kali emerges from Durga’s forehead. Kali defeats them and receives the name Chamunda, revealing the Divine Mother’s fearsome power to protect the world.",
+    "full": "Two fierce Asuras, Chanda (சண்டன்) and Munda (முண்டன்), challenged the goddess Durga (துர்க்கை). In a famous episode of the Devi Mahatmya (தேவி மகாத்மியம்), a powerful dark goddess emerged from her forehead: Kali (காளி). Kali defeated the two enemies and received the name Chamunda (சாமுண்டி). The story shows that the Divine Mother can appear gentle or fierce when protecting the world."
+  },
+  {
+    "id": "why-families-celebrate-navaratri",
+    "category": "Durga and Parvati · துர்க்கை / பார்வதி",
+    "title": "Why Families Celebrate Navaratri",
+    "summary": "Navaratri fills nine nights with lamps, songs, prayer, and, in many Tamil homes, a Golu display of dolls. Families honor Durga for strength, Lakshmi for prosperity, and Saraswati for learning.",
+    "full": "For nine nights, many Hindu families celebrate Navaratri (நவராத்திரி) with lamps, songs, prayers, and sometimes a display of dolls called Golu (கொலு). In a familiar Tamil devotional pattern, worship honors Durga (துர்க்கை) for strength, Lakshmi (லட்சுமி) for prosperity, and Saraswati (சரஸ்வதி) for learning. This is a festival explanation, rather than a traditional episode in which the goddess herself invented the festival."
+  },
+  {
+    "id": "the-child-who-prayed-for-courage",
+    "category": "Durga and Parvati · துர்க்கை / பார்வதி",
+    "title": "The Child Who Prayed for Courage",
+    "summary": "A child who prays to Durga discovers that courage is not the absence of fear but the willingness to speak when others are in danger. One small voice helps a cruel ruler recognize the harm he has caused.",
+    "full": "A young child prays every day to Durga (துர்க்கை) for courage. When a cruel ruler frightens the village, the child remembers the goddess’s strength and speaks up for those in danger. The ruler eventually sees the harm he has caused. This is an original teaching tale inspired by Durga’s protective character, not a verified Purāṇic episode. Its message is that courage can begin with a small voice."
+  },
   {
     "id": "the-elephant-headed-boy",
     "category": "Ganesha · விநாயகர்",
@@ -89,6 +159,76 @@ const STORIES = [
     "full": "When the Asuras (அசுரர்கள்) took the pot of Amritam (அமிர்தம்), the Devas (தேவர்கள்) feared they would never regain their strength. Vishnu (திருமால்) appeared as Mohini (மோகினி), a captivating woman. The Asuras trusted her to divide the nectar, but she served it to the Devas. One Asura, Rahu (ராகு), disguised himself and took a sip before the Sun (சூரியன்) and Moon (சந்திரன்) recognized him. Vishnu stopped him. Mohini is a form of Vishnu, though not usually counted among the ten Dashavatara (தசாவதாரம்)."
   },
   {
+    "id": "lakshmi-rises-from-the-ocean",
+    "category": "Lakshmi · லட்சுமி",
+    "title": "Lakshmi Rises from the Ocean",
+    "summary": "As the Ocean of Milk is churned, Lakshmi rises from the waters holding a lotus and chooses Vishnu as her companion. Her joyful arrival represents prosperity, well-being, and good fortune.",
+    "full": "When the Devas (தேவர்கள்) and Asuras (அசுரர்கள்) churned the Ocean of Milk (பாற்கடல்), wonderful treasures appeared. Among them was Lakshmi (லட்சுமி / திருமகள்), radiant and holding a lotus. In the traditional account, she chose Vishnu (திருமால்) as her companion. Families remember Lakshmi as the goddess of prosperity, well-being, and good fortune. Her appearance is one of the joyful moments in the great ocean-churning story."
+  },
+  {
+    "id": "a-guest-and-a-bowl-of-rice",
+    "category": "Lakshmi · லட்சுமி",
+    "title": "A Guest and a Bowl of Rice",
+    "summary": "A family with very little food still welcomes a mysterious guest and shares its rice. The guest is Lakshmi, who blesses their generosity and shows that true abundance begins with kindness.",
+    "full": "In a simple devotional-style tale, Lakshmi (லட்சுமி) visits a household disguised as a guest. Although the family has little food, they offer her a share of their rice. Lakshmi blesses their generosity, and the home finds happiness and plenty. This is a teaching-style retelling rather than one specific classical episode. Its message is easy to remember: welcome guests kindly and share what you can."
+  },
+  {
+    "id": "the-lotus-lesson",
+    "category": "Lakshmi · லட்சுமி",
+    "title": "The Lotus Lesson",
+    "summary": "Lakshmi’s lotus grows clean and beautiful even though it rises from muddy water. Its image teaches children that difficult circumstances do not prevent them from becoming kind, generous, and good.",
+    "full": "Lakshmi (லட்சுமி) is often pictured on a beautiful lotus that rises clean above muddy water. Parents sometimes use this image to tell children a short lesson: just as the lotus blossoms in a pond, we can grow into kind and generous people even when life is difficult. This is a symbolic teaching based on Lakshmi’s imagery, not a fixed ancient story with a single plot."
+  },
+  {
+    "id": "garudas-birth",
+    "category": "Garuda · கருடன்",
+    "title": "Garuda’s Birth",
+    "summary": "Garuda emerges from Vinata’s egg as a magnificent bird of dazzling strength and speed. His remarkable birth begins the Mahabharata story of a hero who will become Vishnu’s devoted mount and companion.",
+    "full": "The sage Kashyapa (காசியபர்) had wives named Vinata (விநதை) and Kadru (கத்ரு). Vinata’s child Garuda (கருடன்) emerged from an egg as a mighty bird with shining wings. Garuda would become famous for his speed, courage, and devotion to Vishnu (திருமால்). His extraordinary birth begins a much longer tale told in the Mahabharata (மகாபாரதம்)."
+  },
+  {
+    "id": "garuda-frees-his-mother",
+    "category": "Garuda · கருடன்",
+    "title": "Garuda Frees His Mother",
+    "summary": "After deception leaves Vinata enslaved to Kadru and the Nagas, Garuda vows to win his mother’s freedom. The serpents demand the nectar of immortality, sending him on a dangerous and selfless quest.",
+    "full": "Because of a wager and Kadru’s (கத்ரு) deception, Vinata (விநதை) became enslaved to Kadru and her serpent children, the Nagas (நாகர்கள்). Her son Garuda (கருடன்) asked what would win his mother’s freedom. The Nagas demanded Amritam (அமிர்தம்), the nectar of immortality. Garuda bravely set off to obtain it, determined to free Vinata rather than keep the nectar for himself."
+  },
+  {
+    "id": "the-dangerous-journey-for-nectar",
+    "category": "Garuda · கருடன்",
+    "title": "The Dangerous Journey for Nectar",
+    "summary": "To obtain the nectar that will free his mother, Garuda passes through fire, a deadly spinning wheel, fierce serpent guards, and even the resistance of Indra. He carries the treasure away without drinking it, proving that devotion—not personal gain—drives his courage.",
+    "full": "Garuda (கருடன்) flew to the place where the Devas (தேவர்கள்) guarded Amritam (அமிர்தம்). He overcame blazing fire, a deadly spinning wheel, and fierce serpents protecting the nectar. Even Indra (இந்திரன்) could not stop his determination. Garuda carried the nectar away without drinking it himself. His great strength mattered, but the reason for his journey mattered even more: he wanted to rescue his mother."
+  },
+  {
+    "id": "garuda-and-vishnu",
+    "category": "Garuda · கருடன்",
+    "title": "Garuda and Vishnu",
+    "summary": "Vishnu admires Garuda’s strength and selflessness and welcomes him as his mount and companion. Garuda secures Vinata’s freedom, while Indra retrieves the untouched nectar before the Nagas can drink it.",
+    "full": "On the journey home, Garuda (கருடன்) met Vishnu (திருமால்), who admired his courage and selflessness. Garuda became Vishnu’s mount and companion. Garuda arranged for the Nagas (நாகர்கள்) to release his mother Vinata (விநதை) in exchange for the nectar. He set it down on sacred grass, but Indra (இந்திரன்) retrieved it before the snakes could drink. The tale also helps explain Garuda’s legendary rivalry with serpents."
+  },
+  {
+    "id": "kumbhakarnas-mixed-up-wish",
+    "category": "Rama, Hanuman and Kumbhakarna · இராமாயணம்",
+    "title": "Kumbhakarna’s Mixed-Up Wish",
+    "summary": "Kumbhakarna performs great penance but, in a popular telling, Saraswati tangles his speech as he asks Brahma for a boon. Instead of gaining Indra’s throne, the giant receives an extraordinary life of long, deep sleep.",
+    "full": "The giant Kumbhakarna (கும்பகர்ணன்), brother of Ravana (இராவணன்), performed penance to receive a boon from Brahma (பிரம்மா). In a popular later telling, he meant to ask for Indrasana (இந்திராசனம்), Indra’s throne, but Saraswati (சரஸ்வதி) confused his speech, and he asked for Nidrasana (நித்திராசனம்), sleep, instead. The boon became a long sleep, often told as six months at a time. Versions differ on his intended words and the cause of his sleep."
+  },
+  {
+    "id": "the-sleeping-giant-goes-to-battle",
+    "category": "Rama, Hanuman and Kumbhakarna · இராமாயணம்",
+    "title": "The Sleeping Giant Goes to Battle",
+    "summary": "Ravana’s soldiers make an enormous racket to wake Kumbhakarna and send him into battle against Rama. Though the giant knows Ravana was wrong to take Sita, he chooses family loyalty and is forced to face the consequences of that choice.",
+    "full": "When Ravana (இராவணன்) was losing his war against Rama (இராமர்), he ordered his soldiers to wake his enormous brother Kumbhakarna (கும்பகர்ணன்). They sounded drums and made a tremendous racket until he stirred. Kumbhakarna told Ravana that taking Sita (சீதை) had been wrong, yet chose to fight beside his brother. He was a formidable warrior, but Rama defeated him. His story asks whether loyalty should ever come before doing what is right."
+  },
+  {
+    "id": "hanuman-in-ravanas-court",
+    "category": "Rama, Hanuman and Kumbhakarna · இராமாயணம்",
+    "title": "Hanuman in Ravana’s Court",
+    "summary": "After finding Sita in Lanka, Hanuman boldly confronts Ravana and urges him to return her. Ravana sets Hanuman’s tail ablaze, but Hanuman escapes, burns parts of Lanka, and carries hopeful news back to Rama.",
+    "full": "Hanuman (அனுமன்) crossed the sea to Lanka (இலங்கை) and found Sita (சீதை) in the Ashoka grove (அசோக வனம்). After delivering Rama’s (இராமர்) message, he was captured and brought before Ravana (இராவணன்). Hanuman fearlessly urged the king to return Sita. Ravana wanted him punished, but Vibhishana (விபீஷணன்) said a messenger should not be killed. Ravana ordered Hanuman’s tail set on fire. Hanuman escaped, set parts of Lanka ablaze, and returned with news of Sita."
+  },
+  {
     "id": "the-butter-thief",
     "category": "Krishna · கிருஷ்ணர்",
     "title": "The Butter Thief",
@@ -170,117 +310,6 @@ const STORIES = [
     }
   },
   {
-    "id": "lakshmi-rises-from-the-ocean",
-    "category": "Lakshmi · லட்சுமி",
-    "title": "Lakshmi Rises from the Ocean",
-    "summary": "As the Ocean of Milk is churned, Lakshmi rises from the waters holding a lotus and chooses Vishnu as her companion. Her joyful arrival represents prosperity, well-being, and good fortune.",
-    "full": "When the Devas (தேவர்கள்) and Asuras (அசுரர்கள்) churned the Ocean of Milk (பாற்கடல்), wonderful treasures appeared. Among them was Lakshmi (லட்சுமி / திருமகள்), radiant and holding a lotus. In the traditional account, she chose Vishnu (திருமால்) as her companion. Families remember Lakshmi as the goddess of prosperity, well-being, and good fortune. Her appearance is one of the joyful moments in the great ocean-churning story."
-  },
-  {
-    "id": "a-guest-and-a-bowl-of-rice",
-    "category": "Lakshmi · லட்சுமி",
-    "title": "A Guest and a Bowl of Rice",
-    "summary": "A family with very little food still welcomes a mysterious guest and shares its rice. The guest is Lakshmi, who blesses their generosity and shows that true abundance begins with kindness.",
-    "full": "In a simple devotional-style tale, Lakshmi (லட்சுமி) visits a household disguised as a guest. Although the family has little food, they offer her a share of their rice. Lakshmi blesses their generosity, and the home finds happiness and plenty. This is a teaching-style retelling rather than one specific classical episode. Its message is easy to remember: welcome guests kindly and share what you can."
-  },
-  {
-    "id": "the-lotus-lesson",
-    "category": "Lakshmi · லட்சுமி",
-    "title": "The Lotus Lesson",
-    "summary": "Lakshmi’s lotus grows clean and beautiful even though it rises from muddy water. Its image teaches children that difficult circumstances do not prevent them from becoming kind, generous, and good.",
-    "full": "Lakshmi (லட்சுமி) is often pictured on a beautiful lotus that rises clean above muddy water. Parents sometimes use this image to tell children a short lesson: just as the lotus blossoms in a pond, we can grow into kind and generous people even when life is difficult. This is a symbolic teaching based on Lakshmi’s imagery, not a fixed ancient story with a single plot."
-  },
-  {
-    "id": "kumbhakarnas-mixed-up-wish",
-    "category": "Rama, Hanuman and Kumbhakarna · இராமாயணம்",
-    "title": "Kumbhakarna’s Mixed-Up Wish",
-    "summary": "Kumbhakarna performs great penance but, in a popular telling, Saraswati tangles his speech as he asks Brahma for a boon. Instead of gaining Indra’s throne, the giant receives an extraordinary life of long, deep sleep.",
-    "full": "The giant Kumbhakarna (கும்பகர்ணன்), brother of Ravana (இராவணன்), performed penance to receive a boon from Brahma (பிரம்மா). In a popular later telling, he meant to ask for Indrasana (இந்திராசனம்), Indra’s throne, but Saraswati (சரஸ்வதி) confused his speech, and he asked for Nidrasana (நித்திராசனம்), sleep, instead. The boon became a long sleep, often told as six months at a time. Versions differ on his intended words and the cause of his sleep."
-  },
-  {
-    "id": "the-sleeping-giant-goes-to-battle",
-    "category": "Rama, Hanuman and Kumbhakarna · இராமாயணம்",
-    "title": "The Sleeping Giant Goes to Battle",
-    "summary": "Ravana’s soldiers make an enormous racket to wake Kumbhakarna and send him into battle against Rama. Though the giant knows Ravana was wrong to take Sita, he chooses family loyalty and is forced to face the consequences of that choice.",
-    "full": "When Ravana (இராவணன்) was losing his war against Rama (இராமர்), he ordered his soldiers to wake his enormous brother Kumbhakarna (கும்பகர்ணன்). They sounded drums and made a tremendous racket until he stirred. Kumbhakarna told Ravana that taking Sita (சீதை) had been wrong, yet chose to fight beside his brother. He was a formidable warrior, but Rama defeated him. His story asks whether loyalty should ever come before doing what is right."
-  },
-  {
-    "id": "hanuman-in-ravanas-court",
-    "category": "Rama, Hanuman and Kumbhakarna · இராமாயணம்",
-    "title": "Hanuman in Ravana’s Court",
-    "summary": "After finding Sita in Lanka, Hanuman boldly confronts Ravana and urges him to return her. Ravana sets Hanuman’s tail ablaze, but Hanuman escapes, burns parts of Lanka, and carries hopeful news back to Rama.",
-    "full": "Hanuman (அனுமன்) crossed the sea to Lanka (இலங்கை) and found Sita (சீதை) in the Ashoka grove (அசோக வனம்). After delivering Rama’s (இராமர்) message, he was captured and brought before Ravana (இராவணன்). Hanuman fearlessly urged the king to return Sita. Ravana wanted him punished, but Vibhishana (விபீஷணன்) said a messenger should not be killed. Ravana ordered Hanuman’s tail set on fire. Hanuman escaped, set parts of Lanka ablaze, and returned with news of Sita."
-  },
-  {
-    "id": "durga-and-mahishasura",
-    "category": "Durga and Parvati · துர்க்கை / பார்வதி",
-    "title": "Durga and Mahishasura",
-    "summary": "Protected from defeat by any god or man, the shape-shifting Mahishasura conquers heaven and drives out the Devas. Their combined divine energy creates Durga, who rides into battle on a lion and restores justice after a fierce struggle.",
-    "full": {
-      "sections": [
-        {
-          "heading": null,
-          "paragraphs": [
-            "Long ago, there lived a powerful Asura named Mahishasura (மகிஷாசுரன்). He could change his shape, appearing sometimes as a man and sometimes as a mighty buffalo. Mahishasura wanted to become the most powerful ruler in the universe.",
-            "He performed penance to Lord Brahma (பிரம்மா) for many years. When Brahma appeared and offered him a boon, Mahishasura asked that no god or man should be able to defeat him. Brahma granted the boon. Mahishasura was delighted, believing himself unbeatable. But he had forgotten to ask for protection from women."
-          ]
-        },
-        {
-          "heading": "The Gods Are Defeated",
-          "paragraphs": [
-            "With his new powers, Mahishasura gathered an enormous army and marched into heaven. He challenged Indra (இந்திரன்), king of the Devas, and defeated him. The Devas were driven from heaven and went to Brahma, Vishnu (விஷ்ணு), and Shiva (சிவபெருமான்) for help. The three great gods knew that Mahishasura's boon protected him from gods and men, but not from a goddess."
-          ]
-        },
-        {
-          "heading": "The Birth of Durga",
-          "paragraphs": [
-            "A brilliant light shone from Vishnu, Shiva, Brahma, and the other gods. Their divine energies came together, brighter than a thousand suns. From this light appeared Durga (துர்க்கை அம்மன்), a radiant goddess with many arms and extraordinary courage.",
-            "The gods gave Durga their weapons. Shiva gave her his trident; Vishnu gave her his discus, the Sudarshana Chakra (சுதர்சன சக்கரம்); Indra gave her his thunderbolt; and other gods gave her a sword, bow, arrows, and other weapons. Durga rode a magnificent lion into battle."
-          ]
-        },
-        {
-          "heading": "The Great Battle",
-          "paragraphs": [
-            "Mahishasura sent his strongest warriors against Durga, but she defeated them. Finally, Mahishasura himself came forward. He took the form of an enormous buffalo and charged, shaking the ground beneath his hooves. Durga fought him with her divine weapons.",
-            "Mahishasura kept changing form. He appeared as a lion, a man carrying a sword, and an elephant before returning to his buffalo shape. Durga met each attack. At last, she pinned him down and defeated him with her trident."
-          ]
-        },
-        {
-          "heading": "The Victory",
-          "paragraphs": [
-            "The Devas rejoiced. Flowers fell from heaven, and Indra and the other gods were able to return to their places. Durga became known as Mahishasuramardini (மகிஷாசுரமர்த்தினி), the goddess who defeated Mahishasura.",
-            "During Navaratri (நவராத்திரி), many families celebrate the goddess and her victory. The tenth day, Vijayadashami (விஜயதசமி), is associated with victory and new beginnings."
-          ]
-        }
-      ],
-      "lesson": {
-        "label": "Lesson:",
-        "text": "Strength is best used to protect others and stand up for what is right."
-      }
-    }
-  },
-  {
-    "id": "durga-and-chamunda",
-    "category": "Durga and Parvati · துர்க்கை / பார்வதி",
-    "title": "Durga and Chamunda",
-    "summary": "When the fierce Asuras Chanda and Munda challenge Durga, the powerful goddess Kali emerges from Durga’s forehead. Kali defeats them and receives the name Chamunda, revealing the Divine Mother’s fearsome power to protect the world.",
-    "full": "Two fierce Asuras, Chanda (சண்டன்) and Munda (முண்டன்), challenged the goddess Durga (துர்க்கை). In a famous episode of the Devi Mahatmya (தேவி மகாத்மியம்), a powerful dark goddess emerged from her forehead: Kali (காளி). Kali defeated the two enemies and received the name Chamunda (சாமுண்டி). The story shows that the Divine Mother can appear gentle or fierce when protecting the world."
-  },
-  {
-    "id": "why-families-celebrate-navaratri",
-    "category": "Durga and Parvati · துர்க்கை / பார்வதி",
-    "title": "Why Families Celebrate Navaratri",
-    "summary": "Navaratri fills nine nights with lamps, songs, prayer, and, in many Tamil homes, a Golu display of dolls. Families honor Durga for strength, Lakshmi for prosperity, and Saraswati for learning.",
-    "full": "For nine nights, many Hindu families celebrate Navaratri (நவராத்திரி) with lamps, songs, prayers, and sometimes a display of dolls called Golu (கொலு). In a familiar Tamil devotional pattern, worship honors Durga (துர்க்கை) for strength, Lakshmi (லட்சுமி) for prosperity, and Saraswati (சரஸ்வதி) for learning. This is a festival explanation, rather than a traditional episode in which the goddess herself invented the festival."
-  },
-  {
-    "id": "the-child-who-prayed-for-courage",
-    "category": "Durga and Parvati · துர்க்கை / பார்வதி",
-    "title": "The Child Who Prayed for Courage",
-    "summary": "A child who prays to Durga discovers that courage is not the absence of fear but the willingness to speak when others are in danger. One small voice helps a cruel ruler recognize the harm he has caused.",
-    "full": "A young child prays every day to Durga (துர்க்கை) for courage. When a cruel ruler frightens the village, the child remembers the goddess’s strength and speaks up for those in danger. The ruler eventually sees the harm he has caused. This is an original teaching tale inspired by Durga’s protective character, not a verified Purāṇic episode. Its message is that courage can begin with a small voice."
-  },
-  {
     "id": "the-baby-beneath-the-tulasi",
     "category": "Andal · ஆண்டாள்",
     "title": "The Baby Beneath the Tulasi",
@@ -328,34 +357,6 @@ const STORIES = [
     "title": "The Garland Tradition Lives On",
     "summary": "The memory of Andal’s devotion still travels through flower garlands ceremonially sent from Srivilliputhur to Vishnu temples. Each journey recalls how a young girl’s love transformed an ordinary garland into an extraordinary offering.",
     "full": "The story of Andal (ஆண்டாள்) wearing garlands for Vishnu (திருமால்) is remembered in living temple customs. Garlands associated with Srivilliputhur (ஸ்ரீவில்லிபுத்தூர்) are ceremonially sent for special worship, including to other Vishnu temples. Children can imagine the flowers traveling from one sacred place to another, carrying the memory of a girl whose love made an ordinary garland extraordinary."
-  },
-  {
-    "id": "garudas-birth",
-    "category": "Garuda · கருடன்",
-    "title": "Garuda’s Birth",
-    "summary": "Garuda emerges from Vinata’s egg as a magnificent bird of dazzling strength and speed. His remarkable birth begins the Mahabharata story of a hero who will become Vishnu’s devoted mount and companion.",
-    "full": "The sage Kashyapa (காசியபர்) had wives named Vinata (விநதை) and Kadru (கத்ரு). Vinata’s child Garuda (கருடன்) emerged from an egg as a mighty bird with shining wings. Garuda would become famous for his speed, courage, and devotion to Vishnu (திருமால்). His extraordinary birth begins a much longer tale told in the Mahabharata (மகாபாரதம்)."
-  },
-  {
-    "id": "garuda-frees-his-mother",
-    "category": "Garuda · கருடன்",
-    "title": "Garuda Frees His Mother",
-    "summary": "After deception leaves Vinata enslaved to Kadru and the Nagas, Garuda vows to win his mother’s freedom. The serpents demand the nectar of immortality, sending him on a dangerous and selfless quest.",
-    "full": "Because of a wager and Kadru’s (கத்ரு) deception, Vinata (விநதை) became enslaved to Kadru and her serpent children, the Nagas (நாகர்கள்). Her son Garuda (கருடன்) asked what would win his mother’s freedom. The Nagas demanded Amritam (அமிர்தம்), the nectar of immortality. Garuda bravely set off to obtain it, determined to free Vinata rather than keep the nectar for himself."
-  },
-  {
-    "id": "the-dangerous-journey-for-nectar",
-    "category": "Garuda · கருடன்",
-    "title": "The Dangerous Journey for Nectar",
-    "summary": "To obtain the nectar that will free his mother, Garuda passes through fire, a deadly spinning wheel, fierce serpent guards, and even the resistance of Indra. He carries the treasure away without drinking it, proving that devotion—not personal gain—drives his courage.",
-    "full": "Garuda (கருடன்) flew to the place where the Devas (தேவர்கள்) guarded Amritam (அமிர்தம்). He overcame blazing fire, a deadly spinning wheel, and fierce serpents protecting the nectar. Even Indra (இந்திரன்) could not stop his determination. Garuda carried the nectar away without drinking it himself. His great strength mattered, but the reason for his journey mattered even more: he wanted to rescue his mother."
-  },
-  {
-    "id": "garuda-and-vishnu",
-    "category": "Garuda · கருடன்",
-    "title": "Garuda and Vishnu",
-    "summary": "Vishnu admires Garuda’s strength and selflessness and welcomes him as his mount and companion. Garuda secures Vinata’s freedom, while Indra retrieves the untouched nectar before the Nagas can drink it.",
-    "full": "On the journey home, Garuda (கருடன்) met Vishnu (திருமால்), who admired his courage and selflessness. Garuda became Vishnu’s mount and companion. Garuda arranged for the Nagas (நாகர்கள்) to release his mother Vinata (விநதை) in exchange for the nectar. He set it down on sacred grass, but Indra (இந்திரன்) retrieved it before the snakes could drink. The tale also helps explain Garuda’s legendary rivalry with serpents."
   },
   {
     "id": "the-music-of-the-veena",
