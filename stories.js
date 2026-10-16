@@ -180,32 +180,76 @@ const STORIES = [
     "full": "Lakshmi (லட்சுமி) is often pictured on a beautiful lotus that rises clean above muddy water. Parents sometimes use this image to tell children a short lesson: just as the lotus blossoms in a pond, we can grow into kind and generous people even when life is difficult. This is a symbolic teaching based on Lakshmi’s imagery, not a fixed ancient story with a single plot."
   },
   {
-    "id": "garudas-birth",
+    "id": "garuda-and-the-nectar-of-immortality",
+    "legacyIds": [
+      "garudas-birth",
+      "garuda-frees-his-mother",
+      "the-dangerous-journey-for-nectar",
+      "garuda-and-vishnu"
+    ],
     "category": "Garuda · கருடன்",
-    "title": "Garuda’s Birth",
-    "summary": "Garuda emerges from Vinata’s egg as a magnificent bird of dazzling strength and speed. His remarkable birth begins the Mahabharata story of a hero who will become Vishnu’s devoted mount and companion.",
-    "full": "The sage Kashyapa (காசியபர்) had wives named Vinata (விநதை) and Kadru (கத்ரு). Vinata’s child Garuda (கருடன்) emerged from an egg as a mighty bird with shining wings. Garuda would become famous for his speed, courage, and devotion to Vishnu (திருமால்). His extraordinary birth begins a much longer tale told in the Mahabharata (மகாபாரதம்)."
-  },
-  {
-    "id": "garuda-frees-his-mother",
-    "category": "Garuda · கருடன்",
-    "title": "Garuda Frees His Mother",
-    "summary": "After deception leaves Vinata enslaved to Kadru and the Nagas, Garuda vows to win his mother’s freedom. The serpents demand the nectar of immortality, sending him on a dangerous and selfless quest.",
-    "full": "Because of a wager and Kadru’s (கத்ரு) deception, Vinata (விநதை) became enslaved to Kadru and her serpent children, the Nagas (நாகர்கள்). Her son Garuda (கருடன்) asked what would win his mother’s freedom. The Nagas demanded Amritam (அமிர்தம்), the nectar of immortality. Garuda bravely set off to obtain it, determined to free Vinata rather than keep the nectar for himself."
-  },
-  {
-    "id": "the-dangerous-journey-for-nectar",
-    "category": "Garuda · கருடன்",
-    "title": "The Dangerous Journey for Nectar",
-    "summary": "To obtain the nectar that will free his mother, Garuda passes through fire, a deadly spinning wheel, fierce serpent guards, and even the resistance of Indra. He carries the treasure away without drinking it, proving that devotion—not personal gain—drives his courage.",
-    "full": "Garuda (கருடன்) flew to the place where the Devas (தேவர்கள்) guarded Amritam (அமிர்தம்). He overcame blazing fire, a deadly spinning wheel, and fierce serpents protecting the nectar. Even Indra (இந்திரன்) could not stop his determination. Garuda carried the nectar away without drinking it himself. His great strength mattered, but the reason for his journey mattered even more: he wanted to rescue his mother."
-  },
-  {
-    "id": "garuda-and-vishnu",
-    "category": "Garuda · கருடன்",
-    "title": "Garuda and Vishnu",
-    "summary": "Vishnu admires Garuda’s strength and selflessness and welcomes him as his mount and companion. Garuda secures Vinata’s freedom, while Indra retrieves the untouched nectar before the Nagas can drink it.",
-    "full": "On the journey home, Garuda (கருடன்) met Vishnu (திருமால்), who admired his courage and selflessness. Garuda became Vishnu’s mount and companion. Garuda arranged for the Nagas (நாகர்கள்) to release his mother Vinata (விநதை) in exchange for the nectar. He set it down on sacred grass, but Indra (இந்திரன்) retrieved it before the snakes could drink. The tale also helps explain Garuda’s legendary rivalry with serpents."
+    "title": "Garuda and the Nectar of Immortality",
+    "summary": "When deception leaves his mother Vinata enslaved to the Nagas, the mighty Garuda sets out to win her freedom by bringing them the nectar of immortality. His courage, restraint, and devotion earn the friendship of Vishnu and Indra—and allow him to keep his promise without letting the serpents drink the nectar.",
+    "full": {
+      "sections": [
+        {
+          "heading": "Vinata and Kadru",
+          "paragraphs": [
+            "The sage Kashyapa (காசியபர்) had two wives named Vinata (விநதை) and Kadru (கத்ரு). Kadru became the mother of the Nagas (நாகர்கள்), the serpent children. Vinata received two eggs. From one came Aruna (அருணன்), who became the charioteer of Surya, the Sun. The second egg took much longer to hatch.",
+            "One day the sisters argued about Uchchaihshravas (உச்சைச்சிரவஸ்), the magnificent white horse that had risen from the Ocean of Milk. Vinata said the horse was completely white, while Kadru claimed that its tail was black. They agreed that whoever was wrong would become the other's servant."
+          ]
+        },
+        {
+          "heading": "The Deceptive Wager",
+          "paragraphs": [
+            "Kadru secretly ordered her serpent sons to cling to the horse's tail like black hairs. When the sisters went to inspect the horse, its white body appeared to have a black tail. Vinata lost the wager and was forced into service, even though she had been deceived.",
+            "At last Vinata's second egg opened. Garuda (கருடன்) emerged as a vast and radiant bird, shining so brightly that the Devas first mistook him for a great fire. He could change his size, fly wherever he wished, and move with extraordinary speed. When the frightened Devas asked him to soften his brilliance, Garuda kindly made himself smaller."
+          ]
+        },
+        {
+          "heading": "The Price of Freedom",
+          "paragraphs": [
+            "Garuda saw that his mother had to obey Kadru and the Nagas. He asked Vinata why they lived in bondage, and she told him about the wager. Garuda then asked the Nagas what he must do to free her.",
+            "The Nagas demanded Amritam (அமிர்தம்), the nectar of immortality guarded by the Devas. Garuda agreed. He did not want the nectar for himself; he wanted only to rescue his mother. With Vinata's blessing, he spread his powerful wings and began the dangerous journey."
+          ]
+        },
+        {
+          "heading": "The Guardians of the Nectar",
+          "paragraphs": [
+            "The Devas prepared to defend the nectar, but Garuda swept through their ranks with the wind and dust raised by his wings. Beyond them he found a wall of blazing fire. He gathered water from many rivers and extinguished the flames.",
+            "Next came a sharp metal wheel spinning without pause. Garuda made himself tiny and slipped safely between its spokes. Two fierce serpents guarded the nectar beyond the wheel. Garuda scattered dust over their eyes, passed them, and seized the vessel of Amritam.",
+            "Although the nectar could grant immortality, Garuda did not drink a single drop. Carrying it for someone else's sake showed that his self-control was as great as his strength."
+          ]
+        },
+        {
+          "heading": "Garuda and Vishnu",
+          "paragraphs": [
+            "As Garuda flew home, he met Vishnu (திருமால்). Vishnu admired the great bird for taking the nectar without drinking it and offered him a boon. Garuda asked to remain immortal and free from illness without needing the Amritam. Vishnu granted his wish.",
+            "Garuda then offered Vishnu a boon in return. Vishnu asked Garuda to become his vahana—his mount and companion. Garuda gladly agreed, beginning the bond for which he is remembered in temples and stories."
+          ]
+        },
+        {
+          "heading": "A Promise to Indra",
+          "paragraphs": [
+            "Indra (இந்திரன்) tried to stop Garuda with his thunderbolt, but the mighty bird continued on. Garuda respected Indra and the sacred weapon, and the two began to speak instead of fighting.",
+            "Garuda explained that he had promised to deliver the nectar only to win his mother's freedom. He did not intend to let the Nagas drink it. He told Indra that after he placed the vessel down, Indra could take it safely back to heaven. Pleased by Garuda's wisdom, Indra accepted his friendship."
+          ]
+        },
+        {
+          "heading": "Vinata Is Free",
+          "paragraphs": [
+            "Garuda returned to the Nagas and placed the Amritam on sacred kusha grass. He told them to free Vinata and to wash before drinking the nectar. The Nagas agreed, and Garuda's mother was released from bondage.",
+            "While the Nagas were away, Indra carried the vessel back to heaven. When they returned, they found only the kusha grass. Hoping that a drop of nectar remained, they licked the sharp grass, and their tongues split in two. This part of the tale explains why snakes have forked tongues and why kusha grass is considered sacred.",
+            "Garuda had kept his word, protected the nectar, and freed his mother. He became celebrated as the king of birds, the companion of Vishnu, and a legendary enemy of serpents."
+          ]
+        }
+      ],
+      "lesson": {
+        "label": "Lessons:",
+        "text": "Use strength in service of others. Keep your promises without abandoning wisdom. Self-control can be a greater power than force."
+      },
+      "source": "Source: Mahabharata, Adi Parva, Astika Parva, especially Sections 20–34. This is a child-friendly prose retelling, not a word-for-word translation."
+    }
   },
   {
     "id": "kumbhakarnas-mixed-up-wish",
