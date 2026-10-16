@@ -154,17 +154,8 @@ empty.querySelector("button").addEventListener("click", reset);
 
 const requestedId = new URLSearchParams(window.location.search).get("story");
 if (requestedId) {
-  const requestedStory = stories.find((story) =>
-    story.id === requestedId || story.legacyIds?.includes(requestedId)
-  );
-  if (requestedStory) {
-    if (requestedStory.id !== requestedId) {
-      history.replaceState(null, "", storyUrl(requestedStory));
-    }
-    renderStoryPage(requestedStory);
-  } else {
-    renderMissingStory();
-  }
+  const requestedStory = stories.find((story) => story.id === requestedId);
+  requestedStory ? renderStoryPage(requestedStory) : renderMissingStory();
 } else {
   renderFilters();
   renderStories();

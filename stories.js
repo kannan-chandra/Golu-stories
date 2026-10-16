@@ -181,12 +181,6 @@ const STORIES = [
   },
   {
     "id": "garuda-and-the-nectar-of-immortality",
-    "legacyIds": [
-      "garudas-birth",
-      "garuda-frees-his-mother",
-      "the-dangerous-journey-for-nectar",
-      "garuda-and-vishnu"
-    ],
     "category": "Garuda · கருடன்",
     "title": "Garuda and the Nectar of Immortality",
     "summary": "When deception leaves his mother Vinata enslaved to the Nagas, the mighty Garuda sets out to win her freedom by bringing them the nectar of immortality. His courage, restraint, and devotion earn the friendship of Vishnu and Indra—and allow him to keep his promise without letting the serpents drink the nectar.",
