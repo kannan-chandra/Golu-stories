@@ -1,6 +1,5 @@
 const stories = STORIES;
 
-const intro = document.querySelector(".intro");
 const browse = document.querySelector(".browse");
 const grid = document.querySelector("#story-grid");
 const filters = document.querySelector("#filters");
@@ -86,7 +85,6 @@ function reset() {
 }
 
 function renderStoryPage(story) {
-  intro.hidden = true;
   browse.hidden = true;
   storyPage.hidden = false;
   document.querySelector("#story-index").textContent = `Index ${stories.indexOf(story)}`;
@@ -136,7 +134,6 @@ function renderStoryPage(story) {
 }
 
 function renderMissingStory() {
-  intro.hidden = true;
   browse.hidden = true;
   storyPage.hidden = false;
   document.querySelector("#story-index").textContent = "";
