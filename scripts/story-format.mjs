@@ -79,7 +79,7 @@ function parseSections(body, filePath) {
 
 export function parseStoryMarkdown(source, filePath = "story.md") {
   const { metadata, body } = parseFrontMatter(source, filePath);
-  const allowedKeys = new Set(["id", "category", "title", "summary", "format", "lesson-label", "lesson", "source"]);
+  const allowedKeys = new Set(["id", "category", "title", "summary", "format", "source"]);
   for (const key of Object.keys(metadata)) {
     if (!allowedKeys.has(key)) throw new Error(`${filePath}: unknown front matter key: ${key}`);
   }
@@ -96,18 +96,12 @@ export function parseStoryMarkdown(source, filePath = "story.md") {
     if (sections.length !== 1 || sections[0].heading !== null || sections[0].paragraphs.length !== 1) {
       throw new Error(`${filePath}: a simple story must be exactly one paragraph with no heading`);
     }
-    if (metadata.lesson || metadata["lesson-label"] || metadata.source) {
-      throw new Error(`${filePath}: use structured format for lessons or source notes`);
+    if (metadata.source) {
+      throw new Error(`${filePath}: use structured format for source notes`);
     }
     full = sections[0].paragraphs[0];
   } else {
     full = { sections };
-    if (metadata.lesson || metadata["lesson-label"]) {
-      if (!metadata.lesson || !metadata["lesson-label"]) {
-        throw new Error(`${filePath}: lesson and lesson-label must be supplied together`);
-      }
-      full.lesson = { label: metadata["lesson-label"], text: metadata.lesson };
-    }
     if (metadata.source) full.source = metadata.source;
   }
 
@@ -135,10 +129,6 @@ export function serializeStoryMarkdown(story) {
     `format: ${structured ? "structured" : "simple"}`
   ];
 
-  if (structured && story.full.lesson) {
-    lines.push(`lesson-label: ${yamlValue(story.full.lesson.label)}`);
-    lines.push(`lesson: ${yamlValue(story.full.lesson.text)}`);
-  }
   if (structured && story.full.source) lines.push(`source: ${yamlValue(story.full.source)}`);
   lines.push(FRONT_MATTER_BOUNDARY, "");
 

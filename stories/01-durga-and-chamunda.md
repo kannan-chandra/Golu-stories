@@ -6,4 +6,4 @@ summary: "When the fierce Asuras Chanda and Munda challenge Durga, the powerful 
 format: simple
 ---
 
-Two fierce Asuras, Chanda (சண்டன்) and Munda (முண்டன்), challenged the goddess Durga (துர்க்கை). In a famous episode of the Devi Mahatmya (தேவி மகாத்மியம்), a powerful dark goddess emerged from her forehead: Kali (காளி). Kali defeated the two enemies and received the name Chamunda (சாமுண்டி). The story shows that the Divine Mother can appear gentle or fierce when protecting the world.
+Two fierce Asuras, Chanda (சண்டன்) and Munda (முண்டன்), challenged the goddess Durga (துர்க்கை). In a famous episode of the Devi Mahatmya (தேவி மகாத்மியம்), a powerful dark goddess emerged from her forehead: Kali (காளி). Kali defeated the two enemies and brought news of her victory to Durga. From that day, she was known as Chamunda (சாமுண்டி), the conqueror of Chanda and Munda.

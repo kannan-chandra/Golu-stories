@@ -12,4 +12,4 @@ The giant Kumbhakarna (கும்பகர்ணன்), brother of Ravana (�
 
 ## The Giant Awakens
 
-When Ravana (இராவணன்) was losing his war against Rama (இராமர்), he ordered his soldiers to wake his enormous brother Kumbhakarna (கும்பகர்ணன்). They sounded drums and made a tremendous racket until he stirred. Kumbhakarna told Ravana that taking Sita (சீதை) had been wrong, yet chose to fight beside his brother. He was a formidable warrior, but Rama defeated him. His story asks whether loyalty should ever come before doing what is right.
+When Ravana (இராவணன்) was losing his war against Rama (இராமர்), he ordered his soldiers to wake his enormous brother Kumbhakarna (கும்பகர்ணன்). They sounded drums and made a tremendous racket until he stirred. Kumbhakarna told Ravana that taking Sita (சீதை) had been wrong, yet chose to fight beside his brother. He strode onto the battlefield as a formidable warrior, but Rama defeated him.

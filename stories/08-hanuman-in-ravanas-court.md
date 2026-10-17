@@ -4,8 +4,6 @@ category: "Rama, Hanuman and Kumbhakarna · இராமாயணம்"
 title: "Hanuman in Ravana’s Court"
 summary: "After finding Sita in Lanka, Hanuman boldly confronts Ravana and urges him to return her. Ravana sets Hanuman’s tail ablaze, but Hanuman escapes, burns parts of Lanka, and carries hopeful news back to Rama."
 format: structured
-lesson-label: "Lesson:"
-lesson: "Courage means standing up for what is right, even before a powerful enemy."
 ---
 
 Long ago, the demon king Ravana (இராவணன்) kidnapped Sita (சீதை) and took her to his kingdom of Lanka (இலங்கை). Rama (இராமர்) sent his devoted friend Hanuman (அனுமன்) to find her.

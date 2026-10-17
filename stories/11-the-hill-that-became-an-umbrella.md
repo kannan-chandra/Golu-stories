@@ -4,8 +4,6 @@ category: "Krishna · கிருஷ்ணர்"
 title: "The Hill That Became an Umbrella"
 summary: "When Indra sends a devastating storm against the cowherds of Vrindavan, Krishna lifts Govardhana Hill to shelter every family and animal. The seven-day rescue humbles Indra and celebrates Krishna as the protector of cows and community."
 format: structured
-lesson-label: "Lessons:"
-lesson: "Protect those who depend on you. Fulfill your duties. Do not let pride control your actions."
 source: "Source: Bhagavata Purana, Book 10, Chapters 24–27. This is a prose retelling, not a word-for-word translation; no invented dialogue has been added."
 ---
 

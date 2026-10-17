@@ -4,8 +4,6 @@ category: "Ganesha · விநாயகர்"
 title: "Murugan and the Fruit of Wisdom"
 summary: "Ganesha and Murugan are challenged to race around the world for the fruit of wisdom. Murugan speeds away on his peacock, while Ganesha recognizes that his parents are his whole world; when Murugan later leaves for Palani, his parents remind him that he himself is the fruit of wisdom."
 format: structured
-lesson-label: "Lesson:"
-lesson: "Wisdom isn’t always about being the fastest. Sometimes, it’s about understanding what matters most."
 ---
 
 Long ago, on Mount Kailash (கைலாயம்), lived Shiva (சிவபெருமான்), Parvati (பார்வதி), and their two sons, Ganesha (விநாயகர்) and Murugan (முருகன்).

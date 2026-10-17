@@ -69,10 +69,6 @@ test("every full story has renderable paragraphs", () => {
       assert.ok(section.paragraphs.length > 0, `${story.id} has an empty section`);
       section.paragraphs.forEach((paragraph) => assert.ok(paragraph.trim().length > 0));
     }
-    if (story.full.lesson) {
-      assert.ok(story.full.lesson.label.trim());
-      assert.ok(story.full.lesson.text.trim());
-    }
     if (story.full.source) assert.ok(story.full.source.trim());
   }
 });

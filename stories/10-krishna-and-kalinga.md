@@ -4,8 +4,6 @@ category: "Krishna · கிருஷ்ணர்"
 title: "Krishna and Kalinga"
 summary: "The serpent Kalinga poisons a pool of the Yamuna until Krishna leaps into the water and faces him. Krishna escapes the serpent’s coils and performs Kalinga Narthanam upon his many hoods, then shows mercy by sending Kalinga and his family safely away."
 format: structured
-lesson-label: "Lessons:"
-lesson: "Use strength to protect life and restore what has been harmed. Mercy can follow accountability when wrongdoing ends."
 source: "Source: Bhagavata Purana, Book 10, Chapters 16–17. This is a child-friendly prose retelling, not a word-for-word translation; no invented dialogue has been added."
 ---
 

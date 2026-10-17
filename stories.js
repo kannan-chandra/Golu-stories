@@ -42,11 +42,7 @@ const STORIES = [
             "During Navaratri (நவராத்திரி), many families celebrate the goddess and her victory. The tenth day, Vijayadashami (விஜயதசமி), is associated with victory and new beginnings."
           ]
         }
-      ],
-      "lesson": {
-        "label": "Lesson:",
-        "text": "Strength is best used to protect others and stand up for what is right."
-      }
+      ]
     }
   },
   {
@@ -54,7 +50,7 @@ const STORIES = [
     "category": "Durga and Parvati · துர்க்கை / பார்வதி",
     "title": "Durga and Chamunda",
     "summary": "When the fierce Asuras Chanda and Munda challenge Durga, the powerful goddess Kali emerges from Durga’s forehead. Kali defeats them and receives the name Chamunda, revealing the Divine Mother’s fearsome power to protect the world.",
-    "full": "Two fierce Asuras, Chanda (சண்டன்) and Munda (முண்டன்), challenged the goddess Durga (துர்க்கை). In a famous episode of the Devi Mahatmya (தேவி மகாத்மியம்), a powerful dark goddess emerged from her forehead: Kali (காளி). Kali defeated the two enemies and received the name Chamunda (சாமுண்டி). The story shows that the Divine Mother can appear gentle or fierce when protecting the world."
+    "full": "Two fierce Asuras, Chanda (சண்டன்) and Munda (முண்டன்), challenged the goddess Durga (துர்க்கை). In a famous episode of the Devi Mahatmya (தேவி மகாத்மியம்), a powerful dark goddess emerged from her forehead: Kali (காளி). Kali defeated the two enemies and brought news of her victory to Durga. From that day, she was known as Chamunda (சாமுண்டி), the conqueror of Chanda and Munda."
   },
   {
     "id": "the-elephant-headed-boy",
@@ -98,11 +94,7 @@ const STORIES = [
             "Shiva and Parvati came to comfort him. They explained that Murugan himself was the fruit of wisdom—Pazham Nee (பழம் நீ), meaning ‘You are the fruit.’ This is the popular legend explaining the name Palani."
           ]
         }
-      ],
-      "lesson": {
-        "label": "Lesson:",
-        "text": "Wisdom isn’t always about being the fastest. Sometimes, it’s about understanding what matters most."
-      }
+      ]
     }
   },
   {
@@ -150,11 +142,7 @@ const STORIES = [
             "The Syamantaka episode appears in the Bhagavata Purana (Book 10, Chapters 56–57) and the Vishnu Purana. Not every scriptural telling explicitly connects it to Ganesha's Moon curse; that connection belongs to a broader festival storytelling tradition."
           ]
         }
-      ],
-      "lesson": {
-        "label": "Lessons:",
-        "text": "Do not mock others. Do not accuse someone without evidence. Search for the truth."
-      }
+      ]
     }
   },
   {
@@ -244,10 +232,6 @@ const STORIES = [
           ]
         }
       ],
-      "lesson": {
-        "label": "Lessons:",
-        "text": "Use strength in service of others. Keep your promises without abandoning wisdom. Self-control can be a greater power than force."
-      },
       "source": "Source: Mahabharata, Adi Parva, Astika Parva, especially Sections 20–34. This is a child-friendly prose retelling, not a word-for-word translation."
     }
   },
@@ -267,7 +251,7 @@ const STORIES = [
         {
           "heading": "The Giant Awakens",
           "paragraphs": [
-            "When Ravana (இராவணன்) was losing his war against Rama (இராமர்), he ordered his soldiers to wake his enormous brother Kumbhakarna (கும்பகர்ணன்). They sounded drums and made a tremendous racket until he stirred. Kumbhakarna told Ravana that taking Sita (சீதை) had been wrong, yet chose to fight beside his brother. He was a formidable warrior, but Rama defeated him. His story asks whether loyalty should ever come before doing what is right."
+            "When Ravana (இராவணன்) was losing his war against Rama (இராமர்), he ordered his soldiers to wake his enormous brother Kumbhakarna (கும்பகர்ணன்). They sounded drums and made a tremendous racket until he stirred. Kumbhakarna told Ravana that taking Sita (சீதை) had been wrong, yet chose to fight beside his brother. He strode onto the battlefield as a formidable warrior, but Rama defeated him."
           ]
         }
       ]
@@ -304,11 +288,7 @@ const STORIES = [
             "After extinguishing the flames, Hanuman returned across the ocean to Rama, bringing news of Sita."
           ]
         }
-      ],
-      "lesson": {
-        "label": "Lesson:",
-        "text": "Courage means standing up for what is right, even before a powerful enemy."
-      }
+      ]
     }
   },
   {
@@ -316,7 +296,7 @@ const STORIES = [
     "category": "Krishna · கிருஷ்ணர்",
     "title": "The Butter Thief",
     "summary": "Young Krishna invents playful ways to reach the butter pots that Yashoda hangs high above him. His affectionate mischief—and his habit of sharing the butter with friends—makes him Gokulam’s beloved little butter thief.",
-    "full": "Little Krishna (கிருஷ்ணர்) adored fresh butter. His mother Yashoda (யசோதை) hung the butter pots high so he could not reach them. Krishna found clever ways to climb up, sometimes with the help of his friends, and shared the butter. When Yashoda discovered the mischief, she scolded him with affection. Stories of the butter thief celebrate Krishna’s playful childhood in Gokulam (கோகுலம்)."
+    "full": "Little Krishna (கிருஷ்ணர்) adored fresh butter. His mother Yashoda (யசோதை) hung the butter pots high so he could not reach them. Krishna found clever ways to climb up, sometimes with the help of his friends, and shared the butter. When Yashoda discovered the mischief, she scolded him with affection. Before long, his butter-stealing adventures had made him Gokulam’s beloved little butter thief."
   },
   {
     "id": "krishna-and-kalinga",
@@ -376,10 +356,6 @@ const STORIES = [
           ]
         }
       ],
-      "lesson": {
-        "label": "Lessons:",
-        "text": "Use strength to protect life and restore what has been harmed. Mercy can follow accountability when wrongdoing ends."
-      },
       "source": "Source: Bhagavata Purana, Book 10, Chapters 16–17. This is a child-friendly prose retelling, not a word-for-word translation; no invented dialogue has been added."
     }
   },
@@ -443,10 +419,6 @@ const STORIES = [
           ]
         }
       ],
-      "lesson": {
-        "label": "Lessons:",
-        "text": "Protect those who depend on you. Fulfill your duties. Do not let pride control your actions."
-      },
       "source": "Source: Bhagavata Purana, Book 10, Chapters 24–27. This is a prose retelling, not a word-for-word translation; no invented dialogue has been added."
     }
   },
@@ -472,7 +444,7 @@ const STORIES = [
         {
           "heading": "The Journey to Srirangam",
           "paragraphs": [
-            "Andal (ஆண்டாள்) wished to marry only Ranganatha (ரங்கநாதர்), the form of Vishnu (திருமால்) worshipped at Srirangam (ஸ்ரீரங்கம்). According to temple tradition, Ranganatha called for her to be brought there. Periyalvar (பெரியாழ்வார்) accompanied her in a joyful procession. At the temple, Andal is said to have united with the Lord. The story celebrates a devotion that shaped her whole life."
+            "Andal (ஆண்டாள்) wished to marry only Ranganatha (ரங்கநாதர்), the form of Vishnu (திருமால்) worshipped at Srirangam (ஸ்ரீரங்கம்). According to temple tradition, Ranganatha called for her to be brought there. Periyalvar (பெரியாழ்வார்) accompanied her in a joyful procession. At the temple, Andal is said to have united with the Lord she had loved throughout her life."
           ]
         }
       ]

@@ -4,8 +4,6 @@ category: "Durga and Parvati · துர்க்கை / பார்வதி
 title: "Durga and Mahishasura"
 summary: "Protected from defeat by any god or man, the shape-shifting Mahishasura conquers heaven and drives out the Devas. Their combined divine energy creates Durga, who rides into battle on a lion and restores justice after a fierce struggle."
 format: structured
-lesson-label: "Lesson:"
-lesson: "Strength is best used to protect others and stand up for what is right."
 ---
 
 Long ago, there lived a powerful Asura named Mahishasura (மகிஷாசுரன்). He could change his shape, appearing sometimes as a man and sometimes as a mighty buffalo. Mahishasura wanted to become the most powerful ruler in the universe.

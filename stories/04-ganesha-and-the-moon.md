@@ -4,8 +4,6 @@ category: "Ganesha · விநாயகர்"
 title: "Ganesha and the Moon"
 summary: "After the Moon mocks Ganesha for falling from his mouse, Ganesha places a curse upon him and later softens it. The festival tradition connects that curse to Krishna’s false accusation over the Syamantaka jewel and teaches children not to ridicule or accuse others carelessly."
 format: structured
-lesson-label: "Lessons:"
-lesson: "Do not mock others. Do not accuse someone without evidence. Search for the truth."
 ---
 
 ## Ganesha Falls from His Mouse

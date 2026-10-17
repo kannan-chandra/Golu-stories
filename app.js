@@ -51,9 +51,6 @@ function renderStories() {
     const article = document.createElement("article");
     article.className = "story-card";
 
-    const auditIndex = document.createElement("p");
-    auditIndex.className = "audit-index";
-    auditIndex.textContent = `Index ${stories.indexOf(story)}`;
     const category = document.createElement("p");
     category.className = "eyebrow";
     category.textContent = story.category;
@@ -67,7 +64,7 @@ function renderStories() {
     link.href = storyUrl(story);
     link.textContent = "Read the full story";
     link.setAttribute("aria-label", `Read ${story.title}`);
-    article.append(auditIndex, category, title, summary, link);
+    article.append(category, title, summary, link);
     grid.append(article);
   });
 
@@ -87,7 +84,6 @@ function reset() {
 function renderStoryPage(story) {
   browse.hidden = true;
   storyPage.hidden = false;
-  document.querySelector("#story-index").textContent = `Index ${stories.indexOf(story)}`;
   document.querySelector("#story-category").textContent = story.category;
   document.querySelector("#story-title").textContent = story.title;
   document.title = `${story.title} · Golu Stories`;
@@ -110,12 +106,6 @@ function renderStoryPage(story) {
         body.append(paragraph);
       });
     });
-    if (story.full.lesson) {
-      const lesson = document.createElement("p");
-      lesson.className = "lesson";
-      lesson.innerHTML = `<strong>${story.full.lesson.label}</strong> ${story.full.lesson.text}`;
-      body.append(lesson);
-    }
     if (story.full.source) {
       const source = document.createElement("p");
       source.className = "source-note";
@@ -136,7 +126,6 @@ function renderStoryPage(story) {
 function renderMissingStory() {
   browse.hidden = true;
   storyPage.hidden = false;
-  document.querySelector("#story-index").textContent = "";
   document.querySelector("#story-category").textContent = "Story not found";
   document.querySelector("#story-title").textContent = "This story link has wandered away";
   const paragraph = document.createElement("p");

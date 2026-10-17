@@ -4,8 +4,6 @@ category: "Garuda · கருடன்"
 title: "Garuda and the Nectar of Immortality"
 summary: "When deception leaves his mother Vinata enslaved to the Nagas, the mighty Garuda sets out to win her freedom by bringing them the nectar of immortality. His courage, restraint, and devotion earn the friendship of Vishnu and Indra—and allow him to keep his promise without letting the serpents drink the nectar."
 format: structured
-lesson-label: "Lessons:"
-lesson: "Use strength in service of others. Keep your promises without abandoning wisdom. Self-control can be a greater power than force."
 source: "Source: Mahabharata, Adi Parva, Astika Parva, especially Sections 20–34. This is a child-friendly prose retelling, not a word-for-word translation."
 ---
 

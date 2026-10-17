@@ -16,4 +16,4 @@ Every day Periyalvar (பெரியாழ்வார்) prepared flower garl
 
 ## The Journey to Srirangam
 
-Andal (ஆண்டாள்) wished to marry only Ranganatha (ரங்கநாதர்), the form of Vishnu (திருமால்) worshipped at Srirangam (ஸ்ரீரங்கம்). According to temple tradition, Ranganatha called for her to be brought there. Periyalvar (பெரியாழ்வார்) accompanied her in a joyful procession. At the temple, Andal is said to have united with the Lord. The story celebrates a devotion that shaped her whole life.
+Andal (ஆண்டாள்) wished to marry only Ranganatha (ரங்கநாதர்), the form of Vishnu (திருமால்) worshipped at Srirangam (ஸ்ரீரங்கம்). According to temple tradition, Ranganatha called for her to be brought there. Periyalvar (பெரியாழ்வார்) accompanied her in a joyful procession. At the temple, Andal is said to have united with the Lord she had loved throughout her life.

@@ -6,4 +6,4 @@ summary: "Young Krishna invents playful ways to reach the butter pots that Yasho
 format: simple
 ---
 
-Little Krishna (கிருஷ்ணர்) adored fresh butter. His mother Yashoda (யசோதை) hung the butter pots high so he could not reach them. Krishna found clever ways to climb up, sometimes with the help of his friends, and shared the butter. When Yashoda discovered the mischief, she scolded him with affection. Stories of the butter thief celebrate Krishna’s playful childhood in Gokulam (கோகுலம்).
+Little Krishna (கிருஷ்ணர்) adored fresh butter. His mother Yashoda (யசோதை) hung the butter pots high so he could not reach them. Krishna found clever ways to climb up, sometimes with the help of his friends, and shared the butter. When Yashoda discovered the mischief, she scolded him with affection. Before long, his butter-stealing adventures had made him Gokulam’s beloved little butter thief.

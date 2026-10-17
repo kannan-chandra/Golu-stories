@@ -24,8 +24,8 @@ The generated browser files are committed to the repository, so GitHub Pages doe
 ## Edit story content
 
 - Edit the Markdown files in `stories/`. Each file contains a short YAML header followed by the full story in ordinary Markdown.
-- The two-digit filename prefix controls display order. The visible audit index is zero-based and derived from that order; it is not stored inside the story.
-- Use blank lines to separate paragraphs and `##` for section headings. Optional lessons and source notes live in the YAML header.
+- The two-digit filename prefix controls display order.
+- Use blank lines to separate paragraphs and `##` for section headings. Optional source notes live in the YAML header.
 - `stories.js` is generated browser data. Do not edit it directly.
 
 After editing a story, regenerate the browser data and run the validation tests:
