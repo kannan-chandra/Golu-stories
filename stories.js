@@ -127,22 +127,29 @@ const STORIES = [
     "id": "the-churning-of-the-ocean-of-milk",
     "category": "Vishnu · திருமால்",
     "title": "The Churning of the Ocean of Milk",
-    "summary": "The weakened Devas and the Asuras work together to churn the Ocean of Milk in search of the nectar of immortality. With Vishnu supporting the mountain as Kurma and Shiva containing a deadly poison, the great effort brings forth Lakshmi, Dhanvantari, and many treasures.",
-    "full": "After Durvasa (துர்வாசர்) cursed Indra (இந்திரன்), the weakened Devas (தேவர்கள்) sought help from Vishnu (திருமால்). He told them to cooperate with the Asuras (அசுரர்கள்) and churn the Ocean of Milk (பாற்கடல்) for Amritam (அமிர்தம்). They used Mandara (மந்தர மலை) as the rod and Vasuki (வாசுகி) as the rope. Vishnu became the tortoise Kurma (கூர்மம்) to support the sinking mountain. Shiva (சிவன்) contained the deadly poison; Lakshmi (லட்சுமி) and other treasures emerged. Finally Dhanvantari (தன்வந்தரி) appeared carrying the nectar."
-  },
-  {
-    "id": "mohini-the-clever-disguise",
-    "category": "Vishnu · திருமால்",
-    "title": "Mohini, the Clever Disguise",
-    "summary": "When the Asuras seize the nectar of immortality, Vishnu takes the enchanting form of Mohini to recover it for the Devas. Rahu nearly succeeds in drinking some, but the Sun and Moon recognize his disguise just in time.",
-    "full": "When the Asuras (அசுரர்கள்) took the pot of Amritam (அமிர்தம்), the Devas (தேவர்கள்) feared they would never regain their strength. Vishnu (திருமால்) appeared as Mohini (மோகினி), a captivating woman. The Asuras trusted her to divide the nectar, but she served it to the Devas. One Asura, Rahu (ராகு), disguised himself and took a sip before the Sun (சூரியன்) and Moon (சந்திரன்) recognized him. Vishnu stopped him. Mohini is a form of Vishnu, though not usually counted among the ten Dashavatara (தசாவதாரம்)."
-  },
-  {
-    "id": "lakshmi-rises-from-the-ocean",
-    "category": "Lakshmi · லட்சுமி",
-    "title": "Lakshmi Rises from the Ocean",
-    "summary": "As the Ocean of Milk is churned, Lakshmi rises from the waters holding a lotus and chooses Vishnu as her companion. Her joyful arrival represents prosperity, well-being, and good fortune.",
-    "full": "When the Devas (தேவர்கள்) and Asuras (அசுரர்கள்) churned the Ocean of Milk (பாற்கடல்), wonderful treasures appeared. Among them was Lakshmi (லட்சுமி / திருமகள்), radiant and holding a lotus. In the traditional account, she chose Vishnu (திருமால்) as her companion. Families remember Lakshmi as the goddess of prosperity, well-being, and good fortune. Her appearance is one of the joyful moments in the great ocean-churning story."
+    "summary": "The weakened Devas and the Asuras churn the Ocean of Milk in search of the nectar of immortality, with Vishnu supporting the mountain as Kurma and Shiva containing a deadly poison. Lakshmi rises from the waters and chooses Vishnu, and Vishnu later becomes Mohini to recover the nectar from the Asuras.",
+    "full": {
+      "sections": [
+        {
+          "heading": "The Great Churning",
+          "paragraphs": [
+            "After Durvasa (துர்வாசர்) cursed Indra (இந்திரன்), the weakened Devas (தேவர்கள்) sought help from Vishnu (திருமால்). He told them to cooperate with the Asuras (அசுரர்கள்) and churn the Ocean of Milk (பாற்கடல்) for Amritam (அமிர்தம்). They used Mandara (மந்தர மலை) as the rod and Vasuki (வாசுகி) as the rope. Vishnu became the tortoise Kurma (கூர்மம்) to support the sinking mountain. Shiva (சிவன்) contained the deadly poison; Lakshmi (லட்சுமி) and other treasures emerged. Finally Dhanvantari (தன்வந்தரி) appeared carrying the nectar."
+          ]
+        },
+        {
+          "heading": "Lakshmi Rises from the Ocean",
+          "paragraphs": [
+            "When the Devas (தேவர்கள்) and Asuras (அசுரர்கள்) churned the Ocean of Milk (பாற்கடல்), wonderful treasures appeared. Among them was Lakshmi (லட்சுமி / திருமகள்), radiant and holding a lotus. In the traditional account, she chose Vishnu (திருமால்) as her companion. Families remember Lakshmi as the goddess of prosperity, well-being, and good fortune. Her appearance is one of the joyful moments in the great ocean-churning story."
+          ]
+        },
+        {
+          "heading": "Mohini and the Nectar",
+          "paragraphs": [
+            "When the Asuras (அசுரர்கள்) took the pot of Amritam (அமிர்தம்), the Devas (தேவர்கள்) feared they would never regain their strength. Vishnu (திருமால்) appeared as Mohini (மோகினி), a captivating woman. The Asuras trusted her to divide the nectar, but she served it to the Devas. One Asura, Rahu (ராகு), disguised himself and took a sip before the Sun (சூரியன்) and Moon (சந்திரன்) recognized him. Vishnu stopped him. Mohini is a form of Vishnu, though not usually counted among the ten Dashavatara (தசாவதாரம்)."
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "garuda-and-the-nectar-of-immortality",
@@ -213,16 +220,24 @@ const STORIES = [
   {
     "id": "kumbhakarnas-mixed-up-wish",
     "category": "Rama, Hanuman and Kumbhakarna · இராமாயணம்",
-    "title": "Kumbhakarna’s Mixed-Up Wish",
-    "summary": "Kumbhakarna performs great penance but, in a popular telling, Saraswati tangles his speech as he asks Brahma for a boon. Instead of gaining Indra’s throne, the giant receives an extraordinary life of long, deep sleep.",
-    "full": "The giant Kumbhakarna (கும்பகர்ணன்), brother of Ravana (இராவணன்), performed penance to receive a boon from Brahma (பிரம்மா). In a popular later telling, he meant to ask for Indrasana (இந்திராசனம்), Indra’s throne, but Saraswati (சரஸ்வதி) confused his speech, and he asked for Nidrasana (நித்திராசனம்), sleep, instead. The boon became a long sleep, often told as six months at a time. Versions differ on his intended words and the cause of his sleep."
-  },
-  {
-    "id": "the-sleeping-giant-goes-to-battle",
-    "category": "Rama, Hanuman and Kumbhakarna · இராமாயணம்",
-    "title": "The Sleeping Giant Goes to Battle",
-    "summary": "Ravana’s soldiers make an enormous racket to wake Kumbhakarna and send him into battle against Rama. Though the giant knows Ravana was wrong to take Sita, he chooses family loyalty and is forced to face the consequences of that choice.",
-    "full": "When Ravana (இராவணன்) was losing his war against Rama (இராமர்), he ordered his soldiers to wake his enormous brother Kumbhakarna (கும்பகர்ணன்). They sounded drums and made a tremendous racket until he stirred. Kumbhakarna told Ravana that taking Sita (சீதை) had been wrong, yet chose to fight beside his brother. He was a formidable warrior, but Rama defeated him. His story asks whether loyalty should ever come before doing what is right."
+    "title": "Kumbhakarna: The Sleeping Giant",
+    "summary": "In a popular telling, Kumbhakarna’s intended request for Indra’s throne becomes a boon of long, deep sleep. Awakened to fight for Ravana, he recognizes that taking Sita was wrong but chooses family loyalty and faces Rama in battle.",
+    "full": {
+      "sections": [
+        {
+          "heading": "The Mixed-Up Wish",
+          "paragraphs": [
+            "The giant Kumbhakarna (கும்பகர்ணன்), brother of Ravana (இராவணன்), performed penance to receive a boon from Brahma (பிரம்மா). In a popular later telling, he meant to ask for Indrasana (இந்திராசனம்), Indra’s throne, but Saraswati (சரஸ்வதி) confused his speech, and he asked for Nidrasana (நித்திராசனம்), sleep, instead. The boon became a long sleep, often told as six months at a time. Versions differ on his intended words and the cause of his sleep."
+          ]
+        },
+        {
+          "heading": "The Giant Awakens",
+          "paragraphs": [
+            "When Ravana (இராவணன்) was losing his war against Rama (இராமர்), he ordered his soldiers to wake his enormous brother Kumbhakarna (கும்பகர்ணன்). They sounded drums and made a tremendous racket until he stirred. Kumbhakarna told Ravana that taking Sita (சீதை) had been wrong, yet chose to fight beside his brother. He was a formidable warrior, but Rama defeated him. His story asks whether loyalty should ever come before doing what is right."
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "hanuman-in-ravanas-court",
@@ -373,22 +388,29 @@ const STORIES = [
   {
     "id": "the-baby-beneath-the-tulasi",
     "category": "Andal · ஆண்டாள்",
-    "title": "The Baby Beneath the Tulasi",
-    "summary": "Periyalvar finds a baby girl beneath a Tulasi plant in his Srivilliputhur garden and names her Kodhai. Raised among songs and stories of Vishnu, she grows into the beloved Tamil saint Andal.",
-    "full": "In Srivilliputhur (ஸ்ரீவில்லிபுத்தூர்), the devotee Periyalvar (பெரியாழ்வார்) found a baby girl beneath a Tulasi (துளசி) plant in his garden. He lovingly raised her and named her Kodhai (கோதை). She grew up hearing songs and stories about Vishnu (திருமால்) and became known as Andal (ஆண்டாள்). Her life is treasured in Tamil Vaishnava tradition. Andal is often shown holding a green parrot, a familiar part of her iconography and temple tradition."
-  },
-  {
-    "id": "the-garland-andal-wore",
-    "category": "Andal · ஆண்டாள்",
-    "title": "The Garland Andal Wore",
-    "summary": "Andal secretly tries on the flower garlands her father prepares for Vishnu, imagining herself as the Lord’s bride. Vishnu asks to receive the garlands she has worn, showing that her heartfelt devotion is more precious than an ordinary rule.",
-    "full": "Every day Periyalvar (பெரியாழ்வார்) prepared flower garlands for Vishnu (திருமால்). Young Andal (ஆண்டாள்) secretly tried them on first, imagining herself as the Lord’s bride. Her father was upset when he discovered this, thinking the garland could no longer be offered. But Vishnu appeared in a dream and asked for the garland Andal had worn. Her loving devotion became more precious than the usual rule. The memory of this story continues in temple practice: garlands associated with Srivilliputhur are ceremonially sent to other Vishnu temples for special worship."
-  },
-  {
-    "id": "the-journey-to-srirangam",
-    "category": "Andal · ஆண்டாள்",
-    "title": "The Journey to Srirangam",
-    "summary": "Andal wishes to marry only Ranganatha, the form of Vishnu worshipped at Srirangam. Temple tradition remembers her joyful journey there and her final union with the Lord she loved throughout her life.",
-    "full": "Andal (ஆண்டாள்) wished to marry only Ranganatha (ரங்கநாதர்), the form of Vishnu (திருமால்) worshipped at Srirangam (ஸ்ரீரங்கம்). According to temple tradition, Ranganatha called for her to be brought there. Periyalvar (பெரியாழ்வார்) accompanied her in a joyful procession. At the temple, Andal is said to have united with the Lord. The story celebrates a devotion that shaped her whole life."
+    "title": "The Life of Andal",
+    "summary": "Periyalvar finds the baby Kodhai beneath a Tulasi plant and raises her among songs and stories of Vishnu. Remembered as Andal, she offers a uniquely personal devotion through the garlands she wears and ultimately journeys to Srirangam to unite with Ranganatha.",
+    "full": {
+      "sections": [
+        {
+          "heading": "The Baby Beneath the Tulasi",
+          "paragraphs": [
+            "In Srivilliputhur (ஸ்ரீவில்லிபுத்தூர்), the devotee Periyalvar (பெரியாழ்வார்) found a baby girl beneath a Tulasi (துளசி) plant in his garden. He lovingly raised her and named her Kodhai (கோதை). She grew up hearing songs and stories about Vishnu (திருமால்) and became known as Andal (ஆண்டாள்). Her life is treasured in Tamil Vaishnava tradition. Andal is often shown holding a green parrot, a familiar part of her iconography and temple tradition."
+          ]
+        },
+        {
+          "heading": "The Garland Andal Wore",
+          "paragraphs": [
+            "Every day Periyalvar (பெரியாழ்வார்) prepared flower garlands for Vishnu (திருமால்). Young Andal (ஆண்டாள்) secretly tried them on first, imagining herself as the Lord’s bride. Her father was upset when he discovered this, thinking the garland could no longer be offered. But Vishnu appeared in a dream and asked for the garland Andal had worn. Her loving devotion became more precious than the usual rule. The memory of this story continues in temple practice: garlands associated with Srivilliputhur are ceremonially sent to other Vishnu temples for special worship."
+          ]
+        },
+        {
+          "heading": "The Journey to Srirangam",
+          "paragraphs": [
+            "Andal (ஆண்டாள்) wished to marry only Ranganatha (ரங்கநாதர்), the form of Vishnu (திருமால்) worshipped at Srirangam (ஸ்ரீரங்கம்). According to temple tradition, Ranganatha called for her to be brought there. Periyalvar (பெரியாழ்வார்) accompanied her in a joyful procession. At the temple, Andal is said to have united with the Lord. The story celebrates a devotion that shaped her whole life."
+          ]
+        }
+      ]
+    }
   }
 ];
