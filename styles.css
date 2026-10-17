@@ -35,7 +35,7 @@ main { max-width: 1180px; margin: auto; padding: 0 1.5rem; }
 .eyebrow { margin: 0 0 .65rem; color: var(--saffron-dark); font-family: ui-sans-serif, system-ui, sans-serif; font-size: .76rem; font-weight: 750; letter-spacing: .13em; text-transform: uppercase; }
 h1 { margin: 0; max-width: 650px; font-size: clamp(2.8rem, 7vw, 5.5rem); font-weight: 500; line-height: .98; letter-spacing: -.045em; }
 
-.browse { padding: 3rem 0 5rem; }
+.browse { padding: 4.5rem 0 5rem; }
 .toolbar { display: flex; gap: .75rem; align-items: center; }
 .search { flex: 1; max-width: 560px; display: flex; align-items: center; gap: .7rem; padding: .8rem 1rem; border: 1px solid var(--line); border-radius: 999px; background: white; }
 .search:focus-within { outline: 3px solid rgba(217, 109, 47, .18); border-color: var(--saffron); }
@@ -76,6 +76,7 @@ footer p { max-width: 1180px; margin: auto; padding: 1.7rem 1.5rem; color: var(-
 @media (max-width: 850px) { .story-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 590px) {
   .header-inner p { display: none; }
+  .browse { padding-top: 3rem; }
   .story-page { padding-top: 2.5rem; }
   .story-page .back-link { margin-bottom: 2.5rem; }
   .story-grid { grid-template-columns: 1fr; }
