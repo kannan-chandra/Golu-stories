@@ -1,6 +1,5 @@
-// Stories are ordered as a suggested Tamil Navaratri reading sequence,
-// beginning with Durga and placing Lakshmi near the middle.
-// A full story may be a simple string or a structured object with sections.
+// Generated from stories/*.md by npm run build:stories.
+// Edit the Markdown files, not this file.
 const STORIES = [
   {
     "id": "durga-and-mahishasura",

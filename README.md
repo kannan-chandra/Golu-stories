@@ -19,11 +19,22 @@ Then visit <http://localhost:8000>.
 3. Under **Build and deployment**, choose **Deploy from a branch**.
 4. Select the branch containing these files and the `/ (root)` folder, then save.
 
-No build step is required.
+The generated browser files are committed to the repository, so GitHub Pages does not need a build step.
 
 ## Edit story content
 
-- `stories.js` contains the single `STORIES` collection. Every record keeps its ID, category, title, summary, and full version together.
-- A full version may be a simple string or a structured object with titled sections, a lesson, and a source note.
-- Records are arranged in their display order, following a suggested Tamil Navaratri progression beginning with Durga and placing Lakshmi near the middle.
-- The visible audit index is zero-based and derived from each record's current position in `STORIES`; it is not stored separately.
+- Edit the Markdown files in `stories/`. Each file contains a short YAML header followed by the full story in ordinary Markdown.
+- The two-digit filename prefix controls display order. The visible audit index is zero-based and derived from that order; it is not stored inside the story.
+- Use blank lines to separate paragraphs and `##` for section headings. Optional lessons and source notes live in the YAML header.
+- `stories.js` is generated browser data. Do not edit it directly.
+
+After editing a story, regenerate the browser data and run the validation tests:
+
+```sh
+npm run build:stories
+npm test
+```
+
+The tests check ordering, filename and ID consistency, unique and shareable IDs, required card metadata, renderable story sections, and whether `stories.js` exactly matches the Markdown source.
+
+No package installation is required; the generator and tests use only Node.js built-ins.

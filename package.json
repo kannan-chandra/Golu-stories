@@ -1,0 +1,9 @@
+{
+  "name": "golu-stories",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:stories": "node scripts/build-stories.mjs",
+    "test": "node --test"
+  }
+}
