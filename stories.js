@@ -67,9 +67,44 @@ const STORIES = [
   {
     "id": "the-wisdom-fruit",
     "category": "Ganesha · விநாயகர்",
-    "title": "The Wisdom Fruit",
-    "summary": "Ganesha and Murugan are challenged to race around the world for a fruit of wisdom. While Murugan speeds away on his peacock, Ganesha recognizes that his parents are his whole world and wins through insight rather than speed.",
-    "full": "The sage Narada (நாரதர்) brought a special wisdom fruit to Shiva (சிவன்) and Parvati (பார்வதி). Their sons Ganesha (விநாயகர்) and Murugan (முருகன்) were challenged to circle the world. Murugan raced away on his peacock, but Ganesha walked around his parents, saying they were his whole world. He won the fruit. In the Tamil telling, Murugan later went to Palani (பழனி)."
+    "title": "Murugan and the Fruit of Wisdom",
+    "summary": "Ganesha and Murugan are challenged to race around the world for the fruit of wisdom. Murugan speeds away on his peacock, while Ganesha recognizes that his parents are his whole world; when Murugan later leaves for Palani, his parents remind him that he himself is the fruit of wisdom.",
+    "full": {
+      "sections": [
+        {
+          "heading": null,
+          "paragraphs": [
+            "Long ago, on Mount Kailash (கைலாயம்), lived Shiva (சிவபெருமான்), Parvati (பார்வதி), and their two sons, Ganesha (விநாயகர்) and Murugan (முருகன்)."
+          ]
+        },
+        {
+          "heading": "The Magical Fruit",
+          "paragraphs": [
+            "One day, the sage Narada (நாரதர்) arrived carrying a golden mango called the Gnanapazham (ஞானப்பழம்)—the fruit of wisdom. Both brothers wanted it, but the fruit could not be divided.",
+            "Shiva announced a competition: whoever travelled around the world three times first would win the fruit."
+          ]
+        },
+        {
+          "heading": "The Great Race",
+          "paragraphs": [
+            "Murugan immediately climbed onto his magnificent peacock and flew away. Over mountains, forests, rivers, and oceans he soared, racing around the entire world.",
+            "But Ganesha had a clever idea. Instead of travelling around the world, he walked around his parents three times. When Shiva asked why, Ganesha explained that his mother and father meant the whole world to him.",
+            "Delighted by his wisdom, Shiva and Parvati gave him the golden mango."
+          ]
+        },
+        {
+          "heading": "Murugan Goes to Palani",
+          "paragraphs": [
+            "When Murugan returned, he was furious. He had travelled around the entire world, but Ganesha had won. Upset, Murugan left Kailash and went to Palani (பழனி), where he stood upon a hill.",
+            "Shiva and Parvati came to comfort him. They explained that Murugan himself was the fruit of wisdom—Pazham Nee (பழம் நீ), meaning ‘You are the fruit.’ This is the popular legend explaining the name Palani."
+          ]
+        }
+      ],
+      "lesson": {
+        "label": "Lesson:",
+        "text": "Wisdom isn’t always about being the fastest. Sometimes, it’s about understanding what matters most."
+      }
+    }
   },
   {
     "id": "ganesha-and-the-moon",
@@ -244,7 +279,38 @@ const STORIES = [
     "category": "Rama, Hanuman and Kumbhakarna · இராமாயணம்",
     "title": "Hanuman in Ravana’s Court",
     "summary": "After finding Sita in Lanka, Hanuman boldly confronts Ravana and urges him to return her. Ravana sets Hanuman’s tail ablaze, but Hanuman escapes, burns parts of Lanka, and carries hopeful news back to Rama.",
-    "full": "Hanuman (அனுமன்) crossed the sea to Lanka (இலங்கை) and found Sita (சீதை) in the Ashoka grove (அசோக வனம்). After delivering Rama’s (இராமர்) message, he was captured and brought before Ravana (இராவணன்). Hanuman fearlessly urged the king to return Sita. Ravana wanted him punished, but Vibhishana (விபீஷணன்) said a messenger should not be killed. Ravana ordered Hanuman’s tail set on fire. Hanuman escaped, set parts of Lanka ablaze, and returned with news of Sita."
+    "full": {
+      "sections": [
+        {
+          "heading": null,
+          "paragraphs": [
+            "Long ago, the demon king Ravana (இராவணன்) kidnapped Sita (சீதை) and took her to his kingdom of Lanka (இலங்கை). Rama (இராமர்) sent his devoted friend Hanuman (அனுமன்) to find her.",
+            "Hanuman leapt across the ocean, found Sita in the Ashoka garden (அசோகவனம்), and gave her Rama’s message.",
+            "Before leaving, Hanuman destroyed parts of Ravana’s beautiful garden. Ravana’s soldiers attacked him, and Indrajit (இந்திரஜித்) captured him using a powerful divine weapon."
+          ]
+        },
+        {
+          "heading": "Ravana Questions Hanuman",
+          "paragraphs": [
+            "Hanuman was brought before Ravana’s throne. Ravana demanded to know who he was and why he had entered Lanka.",
+            "Hanuman fearlessly announced that he was Rama’s messenger. He warned Ravana to return Sita or face Rama’s anger.",
+            "Furious, Ravana ordered Hanuman’s execution. But Ravana’s brother Vibhishana (விபீஷணன்) intervened. Killing a messenger was against the rules of righteousness."
+          ]
+        },
+        {
+          "heading": "The Burning Tail",
+          "paragraphs": [
+            "Instead, Ravana ordered Hanuman’s tail to be wrapped in cloth and set on fire.",
+            "Hanuman escaped his captors and leapt across Lanka’s rooftops, setting buildings ablaze with his burning tail.",
+            "After extinguishing the flames, Hanuman returned across the ocean to Rama, bringing news of Sita."
+          ]
+        }
+      ],
+      "lesson": {
+        "label": "Lesson:",
+        "text": "Courage means standing up for what is right, even before a powerful enemy."
+      }
+    }
   },
   {
     "id": "the-butter-thief",
@@ -254,23 +320,23 @@ const STORIES = [
     "full": "Little Krishna (கிருஷ்ணர்) adored fresh butter. His mother Yashoda (யசோதை) hung the butter pots high so he could not reach them. Krishna found clever ways to climb up, sometimes with the help of his friends, and shared the butter. When Yashoda discovered the mischief, she scolded him with affection. Stories of the butter thief celebrate Krishna’s playful childhood in Gokulam (கோகுலம்)."
   },
   {
-    "id": "krishna-and-kaliya",
+    "id": "krishna-and-kalinga",
     "category": "Krishna · கிருஷ்ணர்",
-    "title": "Krishna and Kaliya",
-    "summary": "The serpent Kaliya poisons a pool of the Yamuna until Krishna leaps into the water and faces him. Krishna escapes the serpent’s coils and performs Kalinga Narthanam upon his many hoods, then shows mercy by sending Kaliya and his family safely away.",
+    "title": "Krishna and Kalinga",
+    "summary": "The serpent Kalinga poisons a pool of the Yamuna until Krishna leaps into the water and faces him. Krishna escapes the serpent’s coils and performs Kalinga Narthanam upon his many hoods, then shows mercy by sending Kalinga and his family safely away.",
     "full": {
       "sections": [
         {
-          "heading": "Why Kaliya Came to the Yamuna",
+          "heading": "Why Kalinga Came to the Yamuna",
           "paragraphs": [
-            "Kaliya (காளியன்) was a powerful many-hooded Naga who once lived on Ramanaka Island with other serpents. The serpents regularly set aside an offering for Garuda (கருடன்), the great king of birds. Proud of his venom and strength, Kaliya took the offering for himself.",
-            "Garuda came to punish him. Kaliya fought back, but Garuda struck him with a powerful wing. Defeated and afraid, Kaliya fled to a deep pool of the Yamuna River (யமுனை). He knew Garuda would not enter that place because the sage Saubhari had forbidden the bird from harming the creatures living in its waters."
+            "Kalinga (காளியன்) was a powerful many-hooded Naga who once lived on Ramanaka Island with other serpents. The serpents regularly set aside an offering for Garuda (கருடன்), the great king of birds. Proud of his venom and strength, Kalinga took the offering for himself.",
+            "Garuda came to punish him. Kalinga fought back, but Garuda struck him with a powerful wing. Defeated and afraid, Kalinga fled to a deep pool of the Yamuna River (யமுனை). He knew Garuda would not enter that place because the sage Saubhari had forbidden the bird from harming the creatures living in its waters."
           ]
         },
         {
           "heading": "The Poisoned Pool",
           "paragraphs": [
-            "Kaliya remained in the Yamuna with his family. His poison became so strong that the water in the pool seemed to boil. Birds flying over it fell into the water, and the poisonous mist carried from the waves destroyed plants and animals along the shore.",
+            "Kalinga remained in the Yamuna with his family. His poison became so strong that the water in the pool seemed to boil. Birds flying over it fell into the water, and the poisonous mist carried from the waves destroyed plants and animals along the shore.",
             "Krishna (கிருஷ்ணர்) saw that the river had been contaminated and decided to remove the serpent so the Yamuna could become safe again."
           ]
         },
@@ -278,7 +344,7 @@ const STORIES = [
           "heading": "Krishna Enters the Water",
           "paragraphs": [
             "Krishna climbed a Kadamba tree beside the poisoned pool. He tightened his clothing, struck his arms together, and jumped into the water. The force of his landing churned the pool and sent waves rushing across the shore.",
-            "Kaliya heard the disturbance in his territory and came toward Krishna. The serpent bit him and wrapped his enormous coils tightly around him. The cowherd boys and the cows watched in terror as Krishna appeared motionless in Kaliya’s grasp."
+            "Kalinga heard the disturbance in his territory and came toward Krishna. The serpent bit him and wrapped his enormous coils tightly around him. The cowherd boys and the cows watched in terror as Krishna appeared motionless in Kalinga’s grasp."
           ]
         },
         {
@@ -291,23 +357,23 @@ const STORIES = [
         {
           "heading": "Kalinga Narthanam",
           "paragraphs": [
-            "Seeing the distress of the people who loved him, Krishna expanded his body until Kaliya could no longer hold him. The serpent released his coils, raised his many hoods, and prepared to strike again.",
-            "Krishna moved around Kaliya until the serpent grew exhausted. He then sprang onto Kaliya’s broad hoods and began to dance. Whenever one of the serpent’s heads rose defiantly, Krishna pressed it down with his foot.",
-            "This divine dance upon Kaliya is remembered in Tamil tradition as Kalinga Narthanam (காளிங்க நர்த்தனம்). Celestial beings celebrated the dance with music, songs, and showers of flowers. At last Kaliya’s strength failed, and he recognized Krishna’s power."
+            "Seeing the distress of the people who loved him, Krishna expanded his body until Kalinga could no longer hold him. The serpent released his coils, raised his many hoods, and prepared to strike again.",
+            "Krishna moved around Kalinga until the serpent grew exhausted. He then sprang onto Kalinga’s broad hoods and began to dance. Whenever one of the serpent’s heads rose defiantly, Krishna pressed it down with his foot.",
+            "This divine dance upon Kalinga is remembered in Tamil tradition as Kalinga Narthanam (காளிங்க நர்த்தனம்). Celestial beings celebrated the dance with music, songs, and showers of flowers. At last Kalinga’s strength failed, and he recognized Krishna’s power."
           ]
         },
         {
           "heading": "The Plea for Mercy",
           "paragraphs": [
-            "Kaliya’s wives approached Krishna with their children and bowed before him. They accepted that Kaliya had acted wrongly and asked that his life be spared.",
-            "Krishna released the exhausted serpent. Kaliya slowly recovered and submitted to Krishna’s decision."
+            "Kalinga’s wives approached Krishna with their children and bowed before him. They accepted that Kalinga had acted wrongly and asked that his life be spared.",
+            "Krishna released the exhausted serpent. Kalinga slowly recovered and submitted to Krishna’s decision."
           ]
         },
         {
           "heading": "The Yamuna Is Restored",
           "paragraphs": [
-            "Krishna ordered Kaliya to leave the Yamuna with his wives, children, and companions and return to Ramanaka Island. The marks of Krishna’s feet upon Kaliya’s hoods would protect him from Garuda.",
-            "Kaliya and his family honored Krishna and departed for the sea. As soon as they left, the Yamuna became free of poison and its water was restored. The people of Vraja rejoiced when Krishna emerged safely, and his family embraced him with relief."
+            "Krishna ordered Kalinga to leave the Yamuna with his wives, children, and companions and return to Ramanaka Island. The marks of Krishna’s feet upon Kalinga’s hoods would protect him from Garuda.",
+            "Kalinga and his family honored Krishna and departed for the sea. As soon as they left, the Yamuna became free of poison and its water was restored. The people of Vraja rejoiced when Krishna emerged safely, and his family embraced him with relief."
           ]
         }
       ],
