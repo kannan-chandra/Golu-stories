@@ -1,5 +1,5 @@
-// Stories are ordered as a suggested Tamil Navaratri reading sequence:
-// Durga first, Lakshmi near the middle, and Saraswati last.
+// Stories are ordered as a suggested Tamil Navaratri reading sequence,
+// beginning with Durga and placing Lakshmi near the middle.
 // A full story may be a simple string or a structured object with sections.
 const STORIES = [
   {
@@ -56,20 +56,6 @@ const STORIES = [
     "title": "Durga and Chamunda",
     "summary": "When the fierce Asuras Chanda and Munda challenge Durga, the powerful goddess Kali emerges from Durga’s forehead. Kali defeats them and receives the name Chamunda, revealing the Divine Mother’s fearsome power to protect the world.",
     "full": "Two fierce Asuras, Chanda (சண்டன்) and Munda (முண்டன்), challenged the goddess Durga (துர்க்கை). In a famous episode of the Devi Mahatmya (தேவி மகாத்மியம்), a powerful dark goddess emerged from her forehead: Kali (காளி). Kali defeated the two enemies and received the name Chamunda (சாமுண்டி). The story shows that the Divine Mother can appear gentle or fierce when protecting the world."
-  },
-  {
-    "id": "why-families-celebrate-navaratri",
-    "category": "Durga and Parvati · துர்க்கை / பார்வதி",
-    "title": "Why Families Celebrate Navaratri",
-    "summary": "Navaratri fills nine nights with lamps, songs, prayer, and, in many Tamil homes, a Golu display of dolls. Families honor Durga for strength, Lakshmi for prosperity, and Saraswati for learning.",
-    "full": "For nine nights, many Hindu families celebrate Navaratri (நவராத்திரி) with lamps, songs, prayers, and sometimes a display of dolls called Golu (கொலு). In a familiar Tamil devotional pattern, worship honors Durga (துர்க்கை) for strength, Lakshmi (லட்சுமி) for prosperity, and Saraswati (சரஸ்வதி) for learning. This is a festival explanation, rather than a traditional episode in which the goddess herself invented the festival."
-  },
-  {
-    "id": "the-child-who-prayed-for-courage",
-    "category": "Durga and Parvati · துர்க்கை / பார்வதி",
-    "title": "The Child Who Prayed for Courage",
-    "summary": "A child who prays to Durga discovers that courage is not the absence of fear but the willingness to speak when others are in danger. One small voice helps a cruel ruler recognize the harm he has caused.",
-    "full": "A young child prays every day to Durga (துர்க்கை) for courage. When a cruel ruler frightens the village, the child remembers the goddess’s strength and speaks up for those in danger. The ruler eventually sees the harm he has caused. This is an original teaching tale inspired by Durga’s protective character, not a verified Purāṇic episode. Its message is that courage can begin with a small voice."
   },
   {
     "id": "the-elephant-headed-boy",
@@ -138,13 +124,6 @@ const STORIES = [
     }
   },
   {
-    "id": "the-pillaiyar-ants",
-    "category": "Ganesha · விநாயகர்",
-    "title": "The Pillaiyar Ants",
-    "summary": "Tiny black ants sharing grains of rice remind Parvati that even the smallest lives deserve kindness. This Tamil folk tradition affectionately links the little creatures with Pillaiyar, another name for Ganesha.",
-    "full": "In a Tamil folk tale, Parvati (பார்வதி) noticed tiny black ants eating grains of rice that had been set aside. The little creatures reminded her that even the smallest lives deserve attention and care. Some Tamil households affectionately call such ants Pillaiyar ants (பிள்ளையார் எறும்புகள்), connecting them with Ganesha (பிள்ளையார்). This is a regional folk tradition rather than a single widely established Purāṇic episode."
-  },
-  {
     "id": "the-churning-of-the-ocean-of-milk",
     "category": "Vishnu · திருமால்",
     "title": "The Churning of the Ocean of Milk",
@@ -164,20 +143,6 @@ const STORIES = [
     "title": "Lakshmi Rises from the Ocean",
     "summary": "As the Ocean of Milk is churned, Lakshmi rises from the waters holding a lotus and chooses Vishnu as her companion. Her joyful arrival represents prosperity, well-being, and good fortune.",
     "full": "When the Devas (தேவர்கள்) and Asuras (அசுரர்கள்) churned the Ocean of Milk (பாற்கடல்), wonderful treasures appeared. Among them was Lakshmi (லட்சுமி / திருமகள்), radiant and holding a lotus. In the traditional account, she chose Vishnu (திருமால்) as her companion. Families remember Lakshmi as the goddess of prosperity, well-being, and good fortune. Her appearance is one of the joyful moments in the great ocean-churning story."
-  },
-  {
-    "id": "a-guest-and-a-bowl-of-rice",
-    "category": "Lakshmi · லட்சுமி",
-    "title": "A Guest and a Bowl of Rice",
-    "summary": "A family with very little food still welcomes a mysterious guest and shares its rice. The guest is Lakshmi, who blesses their generosity and shows that true abundance begins with kindness.",
-    "full": "In a simple devotional-style tale, Lakshmi (லட்சுமி) visits a household disguised as a guest. Although the family has little food, they offer her a share of their rice. Lakshmi blesses their generosity, and the home finds happiness and plenty. This is a teaching-style retelling rather than one specific classical episode. Its message is easy to remember: welcome guests kindly and share what you can."
-  },
-  {
-    "id": "the-lotus-lesson",
-    "category": "Lakshmi · லட்சுமி",
-    "title": "The Lotus Lesson",
-    "summary": "Lakshmi’s lotus grows clean and beautiful even though it rises from muddy water. Its image teaches children that difficult circumstances do not prevent them from becoming kind, generous, and good.",
-    "full": "Lakshmi (லட்சுமி) is often pictured on a beautiful lotus that rises clean above muddy water. Parents sometimes use this image to tell children a short lesson: just as the lotus blossoms in a pond, we can grow into kind and generous people even when life is difficult. This is a symbolic teaching based on Lakshmi’s imagery, not a fixed ancient story with a single plot."
   },
   {
     "id": "garuda-and-the-nectar-of-immortality",
@@ -410,35 +375,14 @@ const STORIES = [
     "category": "Andal · ஆண்டாள்",
     "title": "The Baby Beneath the Tulasi",
     "summary": "Periyalvar finds a baby girl beneath a Tulasi plant in his Srivilliputhur garden and names her Kodhai. Raised among songs and stories of Vishnu, she grows into the beloved Tamil saint Andal.",
-    "full": "In Srivilliputhur (ஸ்ரீவில்லிபுத்தூர்), the devotee Periyalvar (பெரியாழ்வார்) found a baby girl beneath a Tulasi (துளசி) plant in his garden. He lovingly raised her and named her Kodhai (கோதை). She grew up hearing songs and stories about Vishnu (திருமால்) and became known as Andal (ஆண்டாள்). Her life is treasured in Tamil Vaishnava tradition."
+    "full": "In Srivilliputhur (ஸ்ரீவில்லிபுத்தூர்), the devotee Periyalvar (பெரியாழ்வார்) found a baby girl beneath a Tulasi (துளசி) plant in his garden. He lovingly raised her and named her Kodhai (கோதை). She grew up hearing songs and stories about Vishnu (திருமால்) and became known as Andal (ஆண்டாள்). Her life is treasured in Tamil Vaishnava tradition. Andal is often shown holding a green parrot, a familiar part of her iconography and temple tradition."
   },
   {
     "id": "the-garland-andal-wore",
     "category": "Andal · ஆண்டாள்",
     "title": "The Garland Andal Wore",
     "summary": "Andal secretly tries on the flower garlands her father prepares for Vishnu, imagining herself as the Lord’s bride. Vishnu asks to receive the garlands she has worn, showing that her heartfelt devotion is more precious than an ordinary rule.",
-    "full": "Every day Periyalvar (பெரியாழ்வார்) prepared flower garlands for Vishnu (திருமால்). Young Andal (ஆண்டாள்) secretly tried them on first, imagining herself as the Lord’s bride. Her father was upset when he discovered this, thinking the garland could no longer be offered. But Vishnu appeared in a dream and asked for the garland Andal had worn. Her loving devotion became more precious than the usual rule."
-  },
-  {
-    "id": "songs-in-the-month-of-margazhi",
-    "category": "Andal · ஆண்டாள்",
-    "title": "Songs in the Month of Margazhi",
-    "summary": "In the thirty verses of the Tiruppavai, Andal calls her companions to rise early in Margazhi and worship Krishna together. Her enduring songs combine personal devotion with hopes for the well-being of the whole community.",
-    "full": "Andal (ஆண்டாள்) imagined herself among friends waking early to worship Krishna (கிருஷ்ணர்) in the cool month of Margazhi (மார்கழி). Her thirty verses, the Tiruppavai (திருப்பாவை), call companions to join in prayer and wish for the well-being of the whole community. She also composed the Nachiyar Tirumozhi (நாச்சியார் திருமொழி), expressing her love and longing for Vishnu. Her songs are still sung today."
-  },
-  {
-    "id": "andals-wedding-dream",
-    "category": "Andal · ஆண்டாள்",
-    "title": "Andal’s Wedding Dream",
-    "summary": "Andal describes a vivid dream of her wedding to Vishnu, filled with processions, flowers, music, family, and celebration. Her Varanam Ayiram verses continue to hold a cherished place in Tamil wedding traditions.",
-    "full": "In the celebrated Varanam Ayiram (வாரணம் ஆயிரம்) verses, Andal (ஆண்டாள்) tells a friend about a wonderful dream of her wedding to Vishnu (திருமால்). She imagines grand processions, festive decorations, and joyful ceremonies. The verses remain part of many Tamil wedding traditions. The dream reveals Andal’s devotion through vivid images a child can picture: flowers, music, family, and celebration."
-  },
-  {
-    "id": "andal-and-the-parrot",
-    "category": "Andal · ஆண்டாள்",
-    "title": "Andal and the Parrot",
-    "summary": "Andal is often pictured holding a green parrot, an image lovingly preserved in temple traditions. Families sometimes imagine the bird listening as she sings of Krishna, turning a familiar symbol into a gentle storytelling companion.",
-    "full": "Images of Andal (ஆண்டாள்) often show her holding a green parrot (கிளி). In some temples a decorative parrot is lovingly prepared for her. Families sometimes imagine Andal singing to the bird about Krishna (கிருஷ்ணர்), with the parrot listening close by. That imagined conversation is a gentle storytelling addition, while the parrot itself is a well-known part of her iconography."
+    "full": "Every day Periyalvar (பெரியாழ்வார்) prepared flower garlands for Vishnu (திருமால்). Young Andal (ஆண்டாள்) secretly tried them on first, imagining herself as the Lord’s bride. Her father was upset when he discovered this, thinking the garland could no longer be offered. But Vishnu appeared in a dream and asked for the garland Andal had worn. Her loving devotion became more precious than the usual rule. The memory of this story continues in temple practice: garlands associated with Srivilliputhur are ceremonially sent to other Vishnu temples for special worship."
   },
   {
     "id": "the-journey-to-srirangam",
@@ -446,47 +390,5 @@ const STORIES = [
     "title": "The Journey to Srirangam",
     "summary": "Andal wishes to marry only Ranganatha, the form of Vishnu worshipped at Srirangam. Temple tradition remembers her joyful journey there and her final union with the Lord she loved throughout her life.",
     "full": "Andal (ஆண்டாள்) wished to marry only Ranganatha (ரங்கநாதர்), the form of Vishnu (திருமால்) worshipped at Srirangam (ஸ்ரீரங்கம்). According to temple tradition, Ranganatha called for her to be brought there. Periyalvar (பெரியாழ்வார்) accompanied her in a joyful procession. At the temple, Andal is said to have united with the Lord. The story celebrates a devotion that shaped her whole life."
-  },
-  {
-    "id": "the-garland-tradition-lives-on",
-    "category": "Andal · ஆண்டாள்",
-    "title": "The Garland Tradition Lives On",
-    "summary": "The memory of Andal’s devotion still travels through flower garlands ceremonially sent from Srivilliputhur to Vishnu temples. Each journey recalls how a young girl’s love transformed an ordinary garland into an extraordinary offering.",
-    "full": "The story of Andal (ஆண்டாள்) wearing garlands for Vishnu (திருமால்) is remembered in living temple customs. Garlands associated with Srivilliputhur (ஸ்ரீவில்லிபுத்தூர்) are ceremonially sent for special worship, including to other Vishnu temples. Children can imagine the flowers traveling from one sacred place to another, carrying the memory of a girl whose love made an ordinary garland extraordinary."
-  },
-  {
-    "id": "the-music-of-the-veena",
-    "category": "Saraswati · சரஸ்வதி",
-    "title": "The Music of the Veena",
-    "summary": "In this gentle teaching tale, Saraswati plays her veena until its beautiful music quiets an argument. Everyone pauses to listen and remembers the value of kind speech, harmony, and learning from one another.",
-    "full": "Saraswati (சரஸ்வதி) is the goddess of learning, language, and music. She is often pictured holding a Veena (வீணை). In a gentle teaching story, she plays a melody so beautiful that everyone stops arguing and listens. The music helps them remember to speak kindly and learn from one another. This is an illustrative tale inspired by her symbols, not a fixed classical episode."
-  },
-  {
-    "id": "the-wise-swan",
-    "category": "Saraswati · சரஸ்வதி",
-    "title": "The Wise Swan",
-    "summary": "Saraswati’s Hamsa is traditionally said to distinguish milk from water. The image encourages young learners to examine what they hear, recognize what is valuable, and choose truth wisely.",
-    "full": "The Hamsa (அன்னப்பறவை), often pictured beside Saraswati (சரஸ்வதி), is traditionally associated with the ability to distinguish milk from water. Whether taken literally or symbolically, the image teaches children to look carefully and choose wisely. Just as the bird selects what is valuable, a learner should seek truth rather than believe everything immediately. This is a traditional symbol explained as a short lesson."
-  },
-  {
-    "id": "a-day-for-books-and-music",
-    "category": "Saraswati · சரஸ்வதி",
-    "title": "A Day for Books and Music",
-    "summary": "During Saraswati Puja, families honor books, instruments, and the tools through which they learn and create. Vijayadashami then becomes an auspicious day for children to begin a new subject, art, or practice.",
-    "full": "During Saraswati Puja (சரஸ்வதி பூஜை), especially in Tamil Navaratri (நவராத்திரி) celebrations, families place books, instruments, and tools of learning before Saraswati (சரஸ்வதி). On Vijayadashami (விஜயதசமி), children may begin a new subject or practice. Another festival, Vasant Panchami (வசந்த பஞ்சமி), honors Saraswati in many parts of India. These customs remind children that learning deserves gratitude and care."
-  },
-  {
-    "id": "the-river-of-knowledge",
-    "category": "Saraswati · சரஸ்வதி",
-    "title": "The River of Knowledge",
-    "summary": "Saraswati’s connection with an ancient sacred river offers a picture of knowledge as flowing water. Learning nourishes people, passes from teacher to student, and helps fresh ideas grow.",
-    "full": "Saraswati (சரஸ்வதி) is also associated with an ancient sacred river, the Sarasvati River (சரஸ்வதி நதி). Families may compare knowledge to flowing water: it nourishes people, moves from teacher to student, and helps new ideas grow. When children see pictures of Saraswati near water or a lotus, they can remember this connection. This is a symbolic explanation rather than a single mythological adventure."
-  },
-  {
-    "id": "light-against-ignorance",
-    "category": "Saraswati · சரஸ்வதி",
-    "title": "Light Against Ignorance",
-    "summary": "When mysterious forest sounds frighten a village, curious children choose to listen, ask questions, and investigate. They discover harmless animals rather than monsters and learn how knowledge can replace fear with understanding.",
-    "full": "In a teaching tale inspired by Saraswati (சரஸ்வதி), a village grows frightened because nobody understands the strange sounds in a dark forest. Instead of running away, the children learn to listen, ask questions, and investigate. They discover harmless animals making the noises. They thank Saraswati for the gift of curiosity. This is an original story, not an established legend about a named demon."
   }
 ];
